@@ -1,0 +1,1062 @@
+
+//系统菜单头文件常量变量函数定义
+
+//文件包含
+#include "stdbool.h"
+
+//******************************************
+//常量定义
+#define AXIS_RA  1
+#define AXIS_DEC 2
+#define AXIS_AZI 3
+#define AXIS_ALT 4
+
+
+#define DIRECT_UP  1
+#define DIRECT_DOWN  2
+#define DIRECT_LEFT  3
+#define DIRECT_RIGHT  4
+
+#define HAND_SPEED0  0
+#define HAND_SPEED1  1
+#define HAND_SPEED2  2
+#define HAND_SPEED3  3
+#define HAND_SPEED4  4
+#define HAND_SPEED5  5
+#define HAND_SPEED6  6
+#define HAND_SPEED7  7
+#define HAND_SPEED8  8
+#define HAND_SPEED9  9
+
+
+#define  RA_RATIO      360.0/(7580.0*432.0*256.0)
+#define  DEC_RATIO     360.0/(7580.0*432.0*256.0)
+
+#define  AZI_RATIO     360.0/(8229.0/*8252.234375*/*144.0*256.0)
+#define  ALT_RATIO     360.0/(8229.0/*8252.234375*/*144.0*256.0)
+
+
+
+//菜单语言
+#define CHANESE 0//菜单为中文 
+#define ENGLISH 1//菜单为英语 
+//****************************************************************************
+//****************************************************************************
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//*******************************************************
+//*******************************************************
+//系统菜单变量选择:
+//***************************************************
+//一级菜单
+char *g_sysmenu1000; 
+char *g_sysmenu2000;
+char *g_sysmenu3000;
+char *g_sysmenu4000;
+//***************************************************
+//二级菜单
+//望远镜校正子菜单
+
+char *g_sysmenu1100;
+char *g_sysmenu1200;
+char *g_sysmenu1300;
+char *g_sysmenu1400;
+char *g_sysmenu1500;
+char *g_sysmenu1600;
+char *g_sysmenu1700;
+char *g_sysmenu1800;
+char *g_sysmenu1900;
+char *g_sysmenu1110;
+char *g_sysmenu1120;
+
+//目标导航子菜单
+char *g_sysmenu2100;
+char *g_sysmenu2200;
+char *g_sysmenu2300;
+char *g_sysmenu2400;
+char *g_sysmenu2500;
+char *g_sysmenu2600;
+char *g_sysmenu2700;
+char *g_sysmenu2800;
+char *g_sysmenu2900;
+char *g_sysmenu2110;
+
+//工具命令子菜单
+char *g_sysmenu3100;
+char *g_sysmenu3200;
+char *g_sysmenu3300;
+char *g_sysmenu3400;
+char *g_sysmenu3500;
+char *g_sysmenu3600;
+char *g_sysmenu3700;
+char *g_sysmenu3800;
+char *g_sysmenu3900;
+char *g_sysmenu3110;
+//参数设置子菜单
+char *g_sysmenu4100;
+char *g_sysmenu4200;
+char *g_sysmenu4300;
+char *g_sysmenu4400;
+char *g_sysmenu4500 ;
+char *g_sysmenu4600;
+char *g_sysmenu4700;
+char *g_sysmenu4800;
+char *g_sysmenu4900;
+char *g_sysmenu4110;
+char *g_sysmenu4120;
+//***************************************************
+
+//***************************************************
+//三级菜单
+//第二项第二子项
+char *g_sysmenu2201;
+char *g_sysmenu2202;
+char *g_sysmenu2203;
+char *g_sysmenu2204;
+char *g_sysmenu2205;
+char *g_sysmenu2206;
+char *g_sysmenu2207;
+char *g_sysmenu2208;
+char *g_sysmenu2209;
+char *g_sysmenu22010;
+char *g_sysmenu22011;
+
+//第二项第三子项
+char *g_sysmenu2301;
+char *g_sysmenu2302;
+char *g_sysmenu2303;
+char *g_sysmenu2304;
+char *g_sysmenu2305;
+char *g_sysmenu2306;
+char *g_sysmenu2307;
+char *g_sysmenu2308;
+
+//第二项第五子项
+char *g_sysmenu2501;
+char *g_sysmenu2502;
+char *g_sysmenu2503;
+
+//第二项第八子项
+char *g_sysmenu2801;
+char *g_sysmenu2802;
+char *g_sysmenu2803;
+char *g_sysmenu2804;
+
+//第二项第十一子项
+char *g_sysmenu21101;
+char *g_sysmenu21102;
+char *g_sysmenu21103;
+//**********************
+//第三项第六子项
+char *g_sysmenu3601;
+char *g_sysmenu3602;
+
+//第三项第八子项
+char *g_sysmenu3801;
+char *g_sysmenu3802;
+
+//***********************
+//第四项第三子项
+char *g_sysmenu4301;
+char *g_sysmenu4302;
+
+char *g_sysmenu43021;
+char *g_sysmenu43022;
+char *g_sysmenu43023;
+char *g_sysmenu43024;
+
+
+//第四项第七子项
+char *g_sysmenu4701;
+char *g_sysmenu4702;
+char *g_sysmenu4703;
+char *g_sysmenu4704;
+
+//第四项第八子项
+char *g_sysmenu4801;
+char *g_sysmenu4802;
+char *g_sysmenu4803;
+char *g_sysmenu4804;
+
+//***************************************************
+//***************************************************
+
+
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//*******************************************************
+//*******************************************************
+//系统中文菜单定义:
+//***************************************************
+//一级菜单
+//char g_sysmenu1000Cn[]="望远镜校正" ;
+//char g_sysmenu2000Cn[]="目标导航";
+//char g_sysmenu3000Cn[]="工具命令";
+//char g_sysmenu4000Cn[]="参数设置";
+char g_sysmenu1000Cn[]={0x1b,0x67,0xdc,0x8f,0x5C,0x95,0x21,0x68,0x63,0x6B,0,0} ;	 //"望远镜校正"
+char g_sysmenu2000Cn[]={0xEE,0x76,0x07,0x68,0xFC,0x5B,0x2A,0x82,0,0};//"目标导航";
+char g_sysmenu3000Cn[]={0xE5,0x5D,0x77,0x51,0x7D,0x54,0xE4,0x4E,0,0};//"工具命令";
+char g_sysmenu4000Cn[]={0xC2,0x53,0x70,0x65,0xBE,0x8B,0x6E,0x7F,0,0};//"参数设置";
+//***************************************************
+//二级菜单
+//望远镜校正子菜单
+
+char g_sysmenu1100Cn[]={0xEA,0x81,0xA8,0x52,0x21,0x68,0x63,0x6B,0x00,0x00};//"自动校正";
+char g_sysmenu1200Cn[]={0x00,0x4E,0x1F,0x66,0x21,0x68,0x63,0x6B,0x00,0x00};//"一星校正";
+char g_sysmenu1300Cn[]={0x24,0x4E,0x1F,0x66,0x21,0x68,0x63,0x6B,0x00,0x00};//"两星校正";
+char g_sysmenu1400Cn[]={0x09,0x4E,0x1F,0x66,0x21,0x68,0x63,0x6B,0x00,0x00};//"三星校正";
+char g_sysmenu1500Cn[]={0xEE,0x76,0x07,0x68,0x0C,0x54,0x65,0x6B,0x00,0x00};//"目标同步";
+char g_sysmenu1600Cn[]={0x17,0x53,0x81,0x67,0x1F,0x66,0x4D,0x4F,0x6E,0x7F,0x00,0x00};//"北极星位置";
+char g_sysmenu1700Cn[]={0x57,0x53,0x81,0x67,0x21,0x68,0xC6,0x51,0x1F,0x66,0x4D,0x4F,0x6E,0x7F,0x00,0x00};//"南极校准星位置";
+char g_sysmenu1800Cn[]={0x81,0x67,0x74,0x8F,0x4F,0x50,0xEE,0x5D,0x3E,0x66,0x3A,0x79,0x00,0x00};//"极轴偏差显示";
+char g_sysmenu1900Cn[]={0x68,0x54,0x1F,0x67,0x27,0x60,0xEF,0x8B,0xEE,0x5D,0x21,0x68,0x63,0x6B,0x00,0x00};//"周期性误差校正";
+char g_sysmenu1110Cn[]={0x64,0x8D,0xCF,0x7E,0xDE,0x56,0xEE,0x5D,0x21,0x68,0x63,0x6B,0x00,0x00};//"赤经回差校正";
+char g_sysmenu1120Cn[]={0x64,0x8D,0xAC,0x7E,0xDE,0x56,0xEE,0x5D,0x21,0x68,0x63,0x6B,0x00,0x00};//"赤纬回差校正";
+
+//目标导航子菜单
+char g_sysmenu2100Cn[]={0x53,0x5F,0x4D,0x52,0x00,0x67,0x73,0x4F,0xEE,0x76,0x07,0x68,0x00,0x00};//"当前最佳目标";
+char g_sysmenu2200Cn[]={0x2A,0x59,0x33,0x96,0xFB,0x7C,0x,0,0xx00,0x00};//"太阳系";
+char g_sysmenu2300Cn[]={0xF1,0x6D,0x7A,0x7A,0x29,0x59,0x53,0x4F,0x00,0x00};//"深空天体";
+char g_sysmenu2400Cn[]={0x1F,0x66,0xA7,0x5E,0x00,0x00};//"星座";
+char g_sysmenu2500Cn[]={0x52,0x60,0x1F,0x66,0x00,0x00};//"恒星";
+char g_sysmenu2600Cn[]={0xCC,0x53,0x1F,0x66,0x00,0x00};//"双星";
+char g_sysmenu2700Cn[]={0xD8,0x53,0x1F,0x66,0x00,0x00};//"变星";
+char g_sysmenu2800Cn[]={0xEA,0x81,0x9A,0x5B,0x49,0x4E,0x1F,0x66,0x68,0x88,0x00,0x00};//"自定义星表";
+char g_sysmenu2900Cn[]={0x07,0x63,0x9A,0x5B,0x64,0x8D,0xCF,0x7E,0x64,0x8D,0xAC,0x7E,0x00,0x00};//"指定赤经赤纬";
+char g_sysmenu2110Cn[]={0x46,0x96,0x30,0x57,0xEE,0x76,0x07,0x68,0x00,0x00};//"陆地目标";
+
+//工具命令子菜单
+char g_sysmenu3100Cn[]={0xCF,0x6B,0xE5,0x65,0x29,0x59,0x61,0x8C,0x00,0x00};//"每日天象";
+char g_sysmenu3200Cn[]={0x1F,0x66,0x53,0x4F,0x47,0x53,0x3D,0x84,0x00,0x00};//"星体升落";
+char g_sysmenu3300Cn[]={0xD1,0x8F,0x1F,0x67,0x08,0x67,0xF8,0x76,0x00,0x00};//"近期月相";
+char g_sysmenu3400Cn[]={0x12,0x50,0xA1,0x8B,0xF6,0x65,0x00,0x00};//"倒计时";
+char g_sysmenu3500Cn[]={0x9A,0x5B,0xF6,0x65,0xF9,0x95,0x9F,0x94,0x00,0x00};//"定时闹钟";
+char g_sysmenu3600Cn[]={0xEE,0x76,0x5C,0x95,0xA1,0x8B,0x97,0x7B,0x00,0x00};//"目镜计算";
+char g_sysmenu3700Cn[]={0x35,0x75,0xA8,0x52,0x03,0x8C,0x26,0x71,0x00,0x00};//"电动调焦";
+char g_sysmenu3800Cn[]={0x97,0x66,0xC6,0x89,0xCE,0x91,0x67,0x71,0x0E,0x66,0x00,0x00};//"暗视野照明";
+char g_sysmenu3900Cn[]={0x35,0x75,0x90,0x6E,0xA5,0x62,0x66,0x8B,0x00,0x00};//"电源报警";
+char g_sysmenu3110Cn[]={0x52,0x5F,0xF6,0x96,0x00,0x00};//"归零";
+//参数设置子菜单
+char g_sysmenu4100Cn[]={0xF6,0x65,0xF4,0x95,0xBE,0x8B,0x6E,0x7F,0x00,0x00};//"时间设置";
+char g_sysmenu4200Cn[]={0x0F,0x59,0xE4,0x4E,0xF6,0x65,0xF4,0x95,0x00,0x00};//"夏令时间";
+char g_sysmenu4300Cn[]={0x30,0x57,0xB9,0x70,0xBE,0x8B,0x6E,0x7F,,0x00,0x00};//"地点设置";
+char g_sysmenu4400Cn[]={0x14,0x6C,0x61,0x8C,0x00,0x00};//"气象";
+char g_sysmenu4500Cn[]={0x29,0x59,0x7A,0x7A,0x2F,0x00,0x46,0x96,0x30,0x57,0x00,0x00};//"天空/陆地 " ;
+char g_sysmenu4600Cn[]={0x30,0x57,0x73,0x5E,0x0F,0x5F,0x2F,0x00,0x64,0x8D,0x53,0x90,0x0F,0x5F,0x00,0x00};//"地平式/赤道式 ";
+char g_sysmenu4700Cn[]={0x1B,0x67,0xDC,0x8F,0x5C,0x95,0x8B,0x57,0xF7,0x53,0x00,0x00};//"望远镜型号";
+char g_sysmenu4800Cn[]={0xDF,0x8D,0x2A,0x8E,0x1F,0x90,0x87,0x73,0x00,0x00};//"跟踪速率";
+char g_sysmenu4900Cn[]={0xED,0x8B,0x00,0x8A,0x09,0x90,0xE9,0x62,0x00,0x00};//"语言选择";
+char g_sysmenu4110Cn[]={0x62,0x60,0x0D,0x59,0xFA,0x51,0x82,0x53,0x3C,0x50,0x00,0x00};//"恢复出厂值";
+char g_sysmenu4120Cn[]={0x2E,0x5E,0xA9,0x52,0x00,0x00};//"帮助";
+//***************************************************
+
+//***************************************************
+//三级菜单
+//第二项第二子项
+char g_sysmenu2201Cn[]={0x34,0x6C,0x1F,0x66,0x00,0x00};//"水星";
+char g_sysmenu2202Cn[]={0xD1,0x91,0x1F,0x66,0x00,0x00};//"金星";
+char g_sysmenu2203Cn[]={0x6B,0x70,0x1F,0x66,0x00,0x00};//"火星";
+char g_sysmenu2204Cn[]={0x28,0x67,0x1F,0x66,0x00,0x00};//"木星";
+char g_sysmenu2205Cn[]={0x1F,0x57,0x1F,0x66,0x00,0x00};//"土星";
+char g_sysmenu2206Cn[]={0x29,0x59,0x8B,0x73,0x1F,0x66,0x00,0x00};//"天王星";
+char g_sysmenu2207Cn[]={0x77,0x6D,0x8B,0x73,0x1F,0x66,0x00,0x00};//"海王星";
+char g_sysmenu2208Cn[]={0x2A,0x59,0x33,0x96,0x00,0x00};//"太阳";
+char g_sysmenu2209Cn[]={0x08,0x67,0x03,0x74,0x00,0x00};//"月球";
+char g_sysmenu22010Cn[]={0x0F,0x5C,0x4C,0x88,0x1F,0x66,0x00,0x00};//"小行星";
+char g_sysmenu22011Cn[]={0x67,0x61,0x1F,0x66,0x00,0x00};//"慧星";
+
+//第二项第三子项
+char g_sysmenu2301Cn[]={0xD7,0x4F,0x0D,0x54,0x00,0x00};//"俗名";
+char g_sysmenu2302Cn[]={0x4D,0x00,0x1F,0x66,0x68,0x88,0x00,0x00};//"M星表";
+char g_sysmenu2303Cn[]={0x4E,0x00,0x47,0x00,0x43,0x00,0x0C,0xFF,0x49,0x00,0x43,0x00,0x1F,0x66,0x68,0x88,0x00,0x00};//"NGC，IC星表      ";
+char g_sysmenu2304Cn[]={0x55,0x00,0x47,0x00,0x43,0x00,0x1F,0x66,0x68,0x88,0x00,0x00};//"UGC星表   ";
+char g_sysmenu2305Cn[]={0x4D,0x00,0x43,0x00,0x47,0x00,0x1F,0x66,0x68,0x88,0x00,0x00};//"MCG星表   ";
+char g_sysmenu2306Cn[]={0x43,0x00,0x61,0x00,0x6C,0x00,0x64,0x00,0x77,0x00,0x65,0x00,0x6C,0x00,0x6C,0x00,0x1F,0x66,0x68,0x88,0x00,0x00};//"Caldwell星表        ";
+char g_sysmenu2307Cn[]={0x41,0x00,0x62,0x00,0x65,0x00,0x6C,0x00,0x6C,0x00,0x1F,0x66,0x68,0x88,0x00,0x00};//"Abell星表     ";
+char g_sysmenu2308Cn[]={0x48,0x00,0x65,0x00,0x72,0x00,0x73,0x00,0x68,0x00,0x65,0x00,0x6C,0x00,0x1F,0x66,0x68,0x88,0x00,0x00};//"Hershel星表       ";
+
+//第二项第五子项
+char g_sysmenu2501Cn[]={0x66,0x5B,0x0D,0x54,0x2F,0x00,0x20,0x4F,0x28,0x75,0x0D,0x54,0x00,0x00};//"学名/传用名 ";
+char g_sysmenu2502Cn[]={0x53,0x00,0x41,0x00,0x4F,0x00,0x16,0x7F,0xF7,0x53,0x00,0x00};//"SAO编号   ";
+char g_sysmenu2503Cn[]={0x48,0x00,0x52,0x00,0x16,0x7F,0xF7,0x53,0x00,0x00};//"HR编号  ";
+
+//第二项第八子项
+char g_sysmenu2801Cn[]={0x09,0x90,0xE9,0x62,0x00,0x00};//"选择";
+char g_sysmenu2802Cn[]={0x9E,0x58,0xA0,0x52,0x00,0x00};//"增加";
+char g_sysmenu2803Cn[]={0x20,0x52,0x64,0x96,0x00,0x00};//"删除";
+char g_sysmenu2804Cn[]={0xEE,0x4F,0x39,0x65,0x00,0x00};//"修改";
+
+//第二项第十一子项
+char g_sysmenu21101Cn[]={0x09,0x90,0xE9,0x62,0x00,0x00};//"选择";
+char g_sysmenu21102Cn[]={0x9E,0x58,0xA0,0x52,0x00,0x00};//"增加";
+char g_sysmenu21103Cn[]={0x20,0x52,0x64,0x96,0x00,0x00};//"删除";
+//**********************
+//第三项第六子项
+char g_sysmenu3601Cn[]={,0x00,0x00};//"视野";
+char g_sysmenu3602Cn[]={,0x00,0x00};//"倍率";
+
+//第三项第八子项
+char g_sysmenu3801Cn[]={,0x00,0x00};//"背板";
+char g_sysmenu3802Cn[]={,0x00,0x00};//"附件";
+
+//***********************
+//第四项第三子项
+char g_sysmenu4301Cn[]={,0x00,0x00};//"城市";
+char g_sysmenu4302Cn[]={,0x00,0x00};//"自定义地点";
+
+char g_sysmenu43021Cn[]={0x09,0x90,0xE9,0x62,0x00,0x00};//"选择";
+char g_sysmenu43022Cn[]={0x9E,0x58,0xA0,0x52,0x00,0x00};//"增加";
+char g_sysmenu43023Cn[]={0x20,0x52,0x64,0x96,0x00,0x00};//"删除";
+char g_sysmenu43024Cn[]={0xEE,0x4F,0x39,0x65,0x00,0x00};//"修改";
+
+
+//第四项第七子项
+char g_sysmenu4701Cn[]={0x09,0x90,0xE9,0x62,0x00,0x00};//"选择";
+char g_sysmenu4702Cn[]={0x9E,0x58,0xA0,0x52,0x00,0x00};//"增加";
+char g_sysmenu4703Cn[]={0x20,0x52,0x64,0x96,0x00,0x00};//"删除";
+char g_sysmenu4704Cn[]={0xEE,0x4F,0x39,0x65,0x00,0x00};//"修改";
+
+//第四项第八子项
+char g_sysmenu4801Cn[]={,0x00,0x00};//"恒星速";
+char g_sysmenu4802Cn[]={,0x00,0x00};//"太阳速";
+char g_sysmenu4803Cn[]={,0x00,0x00};//"月亮速";
+char g_sysmenu4804Cn[]={,0x00,0x00};//"自定义";
+
+//***************************************************
+//***************************************************
+
+
+//英文系统菜单定义:
+//***************************************************
+//一级菜单
+char g_sysmenu1000En[]= "Telescope Align" ;
+char g_sysmenu2000En[]= "Target Navigation";
+char g_sysmenu3000En[]= "Utilities Commands";
+char g_sysmenu4000En[]= "Parameter Setup";
+//***************************************************
+//二级菜单
+//望远镜校正子菜单
+
+char g_sysmenu1100En[]="Auto Align";
+char g_sysmenu1200En[]="One Star Align";
+char g_sysmenu1300En[]="Two Star Align";
+char g_sysmenu1400En[]="Three Star Align";
+char g_sysmenu1500En[]="Targers Sync";
+char g_sysmenu1600En[]="Polaris Position";						  
+char g_sysmenu1700En[]="SP Alg Star Pos";
+char g_sysmenu1800En[]="P-Axis Dev Disp";
+char g_sysmenu1900En[]="Period Err Align";
+char g_sysmenu1110En[]="BklashRa Align";
+char g_sysmenu1120En[]="BklashDec Align";
+
+//目标导航子菜单
+char g_sysmenu2100En[]="Curnt Best Obj";
+char g_sysmenu2200En[]="Solar System";
+char g_sysmenu2300En[]="Deep Sky";
+char g_sysmenu2400En[]="Constellation";
+char g_sysmenu2500En[]="Star";
+char g_sysmenu2600En[]="Double Star";
+char g_sysmenu2700En[]="Variable Star";
+char g_sysmenu2800En[]="User-def Object";
+char g_sysmenu2900En[]="Specify Ra Dec";
+char g_sysmenu2110En[]="Landmarks";
+
+//工具命令子菜单
+char g_sysmenu3100En[]="P.d. Astr Phenom";
+char g_sysmenu3200En[]="Object Rase/Fall";
+char g_sysmenu3300En[]="Recently Phase";
+char g_sysmenu3400En[]="Timer";
+char g_sysmenu3500En[]="Alarm";
+char g_sysmenu3600En[]="Eyepiece Calc";
+char g_sysmenu3700En[]="Elect Focus";
+char g_sysmenu3800En[]="Dark illume";
+char g_sysmenu3900En[]="Battery Alarm";
+char g_sysmenu3110En[]="Parkzen";
+//参数设置子菜单
+char g_sysmenu4100En[]="Time Data Set";
+char g_sysmenu4200En[]="Daylight Saving";
+char g_sysmenu4300En[]="Site Setting";
+char g_sysmenu4400En[]="Weather";
+char g_sysmenu4500En[]="Sky/Land" ;
+char g_sysmenu4600En[]="Alt/Equ ";
+char g_sysmenu4700En[]="Telescope Model";
+char g_sysmenu4800En[]="Tracking Rate";
+char g_sysmenu4900En[]="Language";
+char g_sysmenu4110En[]="Reset";
+char g_sysmenu4120En[]="Help";
+//***************************************************
+//***************************************************
+//三级菜单
+//第二项第二子项
+char g_sysmenu2201En[]="Mercury";
+char g_sysmenu2202En[]="Venus";
+char g_sysmenu2203En[]="Mars";
+char g_sysmenu2204En[]="Jupiter";
+char g_sysmenu2205En[]="Saturn";
+char g_sysmenu2206En[]="Uranus";
+char g_sysmenu2207En[]="Neptune";
+char g_sysmenu2208En[]="Sun";
+char g_sysmenu2209En[]="Moon";
+char g_sysmenu22010En[]="Asteroids";
+char g_sysmenu22011En[]="Comets";
+
+//第二项第三子项
+char g_sysmenu2301En[]="Popular name";
+char g_sysmenu2302En[]="M Objects";
+char g_sysmenu2303En[]="NGC,IC Objects";
+char g_sysmenu2304En[]="UGC Objects";
+char g_sysmenu2305En[]="MCG Objects";
+char g_sysmenu2306En[]="Caldwell Objects";
+char g_sysmenu2307En[]="Abell Objects";
+char g_sysmenu2308En[]="Hershel Objects";
+
+//第二项第五子项
+char g_sysmenu2501En[]="Scientific Name";
+char g_sysmenu2502En[]="SAO Catalog";
+char g_sysmenu2503En[]="HR Catalog";
+
+//第二项第八子项
+char g_sysmenu2801En[]="Select";
+char g_sysmenu2802En[]="Add";
+char g_sysmenu2803En[]="Delete";
+char g_sysmenu2804En[]="Modify";
+
+//第二项第十一子项
+char g_sysmenu21101En[]="Select";
+char g_sysmenu21102En[]="Add";
+char g_sysmenu21103En[]="Delete";
+//***********************
+//第三项第四子项
+char g_sysmenu3401En[]="Setup";
+char g_sysmenu3402En[]="Start/Stop ";
+
+//第三项第五子项
+char g_sysmenu3501En[]="Setup";
+char g_sysmenu3502En[]="Open/Close";
+
+//第三项第六子项
+char g_sysmenu3601En[]="Eyeshot";
+char g_sysmenu3602En[]="Ratio";
+
+//第三项第八子项
+char g_sysmenu3801En[]="BackBoard";
+char g_sysmenu3802En[]="Accessory";
+
+//***********************
+//第四项第三子项
+char g_sysmenu4301En[]="City";
+char g_sysmenu4302En[]="User-def Site";
+
+char g_sysmenu43021En[]="Select";
+char g_sysmenu43022En[]="Add";
+char g_sysmenu43023En[]="Delete";
+char g_sysmenu43024En[]="Modify";
+
+
+//第四项第七子项
+char g_sysmenu4701En[]="Select";
+char g_sysmenu4702En[]="Add";
+char g_sysmenu4703En[]="Delete";
+char g_sysmenu4704En[]="Modify";
+
+//第四项第八子项
+char g_sysmenu4801En[]="Star Speed";
+char g_sysmenu4802En[]="Solar Speed";
+char g_sysmenu4803En[]="Moon Speed";
+char g_sysmenu4804En[]="User-defined";
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+//***************************************************
+//***************************************************
+
+
+//***************************************************
+//***************************************************
+
+//***************************************************
+//***************************************************
+//菜单最底层实现中文
+//第一层子菜单第一项:望远镜校正
+//北极星位置
+char g_sysmenu1600umia_ra[16]="R.a: 2h35m00s";
+char g_sysmenu1600umia_dec[16]="Dec:+89d17m00s";
+//第一层子菜单第二项：目标导航
+//赤经赤纬输入
+char *g_sysmenu2100object_name ;
+char *g_sysmenu2200object_name ;
+
+char g_sysmenu2900title[16]="请输入赤经赤纬: " ;
+char g_sysmenu2900ra[16]="R.a: 12h32m48.2s";
+char g_sysmenu2900dec[16]="Dec:+14 26 53.3 ";
+//第一层子菜单第三项：工具命令
+//****************************************************************************************
+//目镜计算.视野
+char g_sysmenu3601lov_teltype1[]="望远镜型号:MX51     ";
+char g_sysmenu3601lov_data1[]="视场:3'.3'       ";
+char g_sysmenu3601lov_teltype2[]="望远镜型号:MX52     ";
+char g_sysmenu3601lov_data2[]="视场:3'.3'       ";
+char g_sysmenu3601lov_teltype3[]="望远镜型号:MX53     ";
+char g_sysmenu3601lov_data3[]="视场:3'.3'       ";
+
+char g_sysmenu3601lov_teltype1En[]="Telescope one:MX51";
+char g_sysmenu3601lov_data1En[]="Scope:3'.3'";
+char g_sysmenu3601lov_teltype2En[]="Telescope two:MX52";
+char g_sysmenu3601lov_data2En[]="Scope:3'.3'";
+char g_sysmenu3601lov_teltype3En[]="Telescope three:MX53";
+char g_sysmenu3601lov_data3En[]="Scope:3'.3'";
+
+char  g_sysmenu3601menu1[]="望远镜型号:MX51     ";
+char  g_sysmenu3601menu2[]="望远镜型号:MX52     ";
+char  g_sysmenu3601menu3[]="望远镜型号:MX53     ";
+
+char  g_sysmenu3601menu1En[]="Telescope one:MX51";
+char  g_sysmenu3601menu2En[]="Telescope two:MX52";
+char  g_sysmenu3601menu3En[]="Telescope three:MX53";
+
+//目镜计算.倍率
+char g_sysmenu3602m_title[]="请输入焦距: ";
+char g_sysmenu3602m_mf[]="主镜F:1893mm        ";
+char g_sysmenu3602m_sf[]="副镜f:43mm      ";
+char g_sysmenu3602m_data[]="放大倍数M:42      ";
+
+char g_sysmenu3602m_titleEn[]="Input Focus:";
+char g_sysmenu3602m_mfEn[]="PrMrF:1893mm";
+char g_sysmenu3602m_sfEn[]="SbMrf:43mm";
+char g_sysmenu3602m_dataEn[]="MultiplyM:42";
+
+//陆地目标
+char g_sysmenu2110m_1[]="";			    
+char g_sysmenu2110m_2[]="名称: Kunming                  ";
+char g_sysmenu2110m_3[]="方位：180d00m00s               ";
+char g_sysmenu2110m_4[]="高度：50d00m00s                ";
+
+char g_sysmenu2110m_1En[]="";
+char g_sysmenu2110m_2En[]="LName:Kunming";
+char g_sysmenu2110m_3En[]="LAzmu:180d00m00s   ";
+char g_sysmenu2110m_4En[]="LAlti:50d00m00s    ";
+
+//自定义星表
+char g_sysmenu2801m_1[]="";
+char g_sysmenu2802m_2[]="名称：Kunming                      ";
+char g_sysmenu2803m_3[]="赤经：00h00m00s                     ";
+char g_sysmenu2804m_4[]="赤纬：+00h00m00s                     ";
+
+char g_sysmenu2801m_1En[]="";
+char g_sysmenu2802m_2En[]="SName:Kunming ";
+char g_sysmenu2803m_3En[]="SOR.a:00h00m00s";
+char g_sysmenu2804m_4En[]="SODec:+00h00m00s";
+//*****************************************************************************************
+
+//第一层子菜单第四项：参数设置
+//时间设置
+char g_sysmenu4100date[10] ;
+char g_sysmenu4100time[8]; 
+//城市选择
+
+char g_sysmenu4300citycountry[] ="中国";
+char g_sysmenu4300cityname[] ="昆明";
+char g_sysmenu4300citylon[] ="经度：E102d35f         ";
+char g_sysmenu4300citylat[] ="纬度：N25d35f         ";
+char g_sysmenu4300cityzone[]= "时区：E08      ";
+char g_sysmenu4300cityalt[]= "海拔：1880m      ";
+
+//自定义地点设置
+uint8 g_mMySiteShowMode;
+char g_sysmenu4300sitetitle[] ;
+char g_sysmenu4300sitename[] ="名称：KunMing          ";
+char g_sysmenu4300sitelon[] ="经度：E102d35f         ";
+char g_sysmenu4300sitelat[] ="纬度：N25d35f         ";
+char g_sysmenu4300sitezone[]= "时区：E08      ";
+char g_sysmenu4300sitealt[]= "海拔：1880m      ";
+//气象数据输入
+
+char  g_sysmenu4400temperatrue[]="温度:+25C     ";
+char g_sysmenu4400humidity[]="湿度:82RH     ";
+char g_sysmenu4400airpressure[]="气压:0680Pa       ";
+
+char g_sysmenu4500sky[]="天空目标";
+char g_sysmenu4500land[]="陆地目标";
+//望远镜装置(赤道式，地平式)
+char g_sysmenu4600az[]="地平式望远镜";
+char g_sysmenu4600eq[]="赤道式望远镜";
+
+//自定义赤经跟踪速度
+char g_sysmenu4800raspeed[16];//赤纬数字输入
+char g_sysmenu4800raspeedEn[16];//赤纬数字输入
+//菜单语言
+char g_sysmenu4900cn[]="汉语";
+char g_sysmenu4900en[]="英语";
+char g_sysmenu4900jn[]="日语";
+char g_sysmenu4900fn[]="法语";
+
+
+//***************************************************
+//***************************************************
+
+//***************************************************
+//***************************************************
+//菜单最底层实现英语
+//第一层子菜单第一项:望远镜校正
+//北极星位置
+char g_sysmenu1600umia_raEn[16]="R.a: 2h35m00s";
+char g_sysmenu1600umia_decEn[16]="Dec:+89d17m00s";
+//第一层子菜单第二项：目标导航
+//当前最佳目标
+char *g_sysmenu2100object_nameEn;
+char *g_sysmenu2200object_nameEn;
+//赤经赤纬输入
+//赤经赤纬输入
+char g_sysmenu2900titleEn[16]="Input Ra Dec:";
+char g_sysmenu2900raEn[16]="R.a: 12h32m48.2s";
+char g_sysmenu2900decEn[16]="Dec:+14d26m53.3s";	
+
+
+//***********************************************
+//***********************************************
+//时间设置
+char g_sysmenu4100dateEn[10] ;
+char g_sysmenu4100timeEn[8];
+//地点设置
+//地点设置
+char g_sCountryEn[]="Country:China";
+char g_sCityEn[]="City:Kunming";
+char g_sysmenu4300sitetitleEn[] ;
+char g_sysmenu4300sitenameEn[] ="StNam:KunMing ";
+char g_sysmenu4300sitelonEn[] ="Stlon:E102d35f ";
+char g_sysmenu4300sitelatEn[] ="StLat:N25d35f";
+char g_sysmenu4300sitezoneEn[]= "StmZn:E08";
+char g_sysmenu4300sitealtEn[]= "StAlt:1880m ";
+
+//气象数据输入
+char  g_sysmenu4400temperatrueEn[]="Tmpt:+25C";
+char g_sysmenu4400humidityEn[]="Hmdt:82RH";
+char g_sysmenu4400airpressureEn[]="APrs:0680Pa";		     
+
+
+//天空陆地
+char g_sysmenu4500skyEn[]="Sky Target";
+char g_sysmenu4500landEn[]="Land Target";
+//望远镜装置(赤道式，地平式)
+char g_sysmenu4600azEn[]="Alt Telescope";
+char g_sysmenu4600eqEn[]="Equ Telescope";
+
+//菜单语言
+char g_sysmenu4900cnEn[]="Chinese";
+char g_sysmenu4900enEn[]="English";
+char g_sysmenu4900jnEn[]="Japanese";
+char g_sysmenu4900fnEn[]="French";
+//***************************************************
+//***************************************************
+
+//****************************************************************************
+
+//倒计时
+char g_sysmenu3401off[]="设定计时器： ";
+char g_sysmenu3402off[]="00000s";
+char g_sysmenu3403off[]="";
+char g_sysmenu3404off[]="    开启    退出        ";
+
+char g_sysmenu3401on[]="正在计时: ";
+char g_sysmenu3402on[]="剩余时间：";
+char g_sysmenu3403on[]="00000s";
+char g_sysmenu3404on[]="    停止    退出        ";	 
+
+char g_sysmenu3401offEn[]="Set Timer:";
+char g_sysmenu3402offEn[]="00000s";
+char g_sysmenu3403offEn[]="";
+char g_sysmenu3404offEn[]="      Start      Back";
+
+char g_sysmenu3401onEn[]="Counting Down: ";
+char g_sysmenu3402onEn[]="Time Remain:";
+char g_sysmenu3403onEn[]="00000s";
+char g_sysmenu3404onEn[]="       Stop      Back";	
+
+
+//闹钟
+char g_sysmenu3500alarm_off1[]="关闭当前闹钟? " ;
+char g_sysmenu3500alarm_off2[]="";
+char g_sysmenu3500alarm_off3[]="";
+char g_sysmenu3500alarm_off4[]="    关闭    退出        ";
+
+char g_sysmenu3500alarm_title[]="请输入闹钟时间: ";
+char g_sysmenu3500alarm_input[]="21h34m23s";
+char g_sysmenu3500alarm_onoff[]="    开启    退出        ";
+
+//闹钟
+char g_sysmenu3500alarm_off1En[]="Close Alarm?" ;
+char g_sysmenu3500alarm_off2En[]="";
+char g_sysmenu3500alarm_off3En[]="";
+char g_sysmenu3500alarm_off4En[]="      Close      Back";
+
+char g_sysmenu3500alarm_titleEn[]="Input Time: ";
+char g_sysmenu3500alarm_inputEn[]="21h34m23s";
+char g_sysmenu3500alarm_onoffEn[]="       On       Back";
+
+
+//暗视野照明设置
+//背板子菜单
+char g_sysmenu380011[]="背板亮度";
+char g_sysmenu380012[]="按上下键调整";
+char g_sysmenu380013[]="";
+char g_sysmenu380014[]="";
+
+char g_sysmenu380011En[]="Background light";
+char g_sysmenu380012En[]="Press up/down key";
+char g_sysmenu380013En[]="";
+char g_sysmenu380014En[]="";
+
+//电池报警设置
+char g_sysmenu390011[]="电源报警";
+char g_sysmenu390012[]="当前状态：开 ";
+char g_sysmenu390013[]="";
+char g_sysmenu390014[]="";
+
+char g_sysmenu390011En[]="Battery Alarm";
+char g_sysmenu390012En[]="Status:On";
+char g_sysmenu390013En[]="";
+char g_sysmenu390014En[]="";
+
+char g_sysmenu390021[]="电源报警";
+char g_sysmenu390022[]="当前状态：关 ";
+char g_sysmenu390023[]="";
+char g_sysmenu390024[]="";
+
+char g_sysmenu390021En[]="Battery Alarm";
+char g_sysmenu390022En[]="Status:Off";
+char g_sysmenu390023En[]="";
+char g_sysmenu390024En[]="";
+
+//夏令时设置
+char g_sysmenu420011[]="夏令时间";
+char g_sysmenu420012[]="当前状态：开 ";
+char g_sysmenu420013[]="";
+char g_sysmenu420014[]="";
+
+char g_sysmenu420011En[]="Daylight Saving";
+char g_sysmenu420012En[]="Status:On";
+char g_sysmenu420013En[]="";
+char g_sysmenu420014En[]="";
+
+char g_sysmenu420021[]="夏令时间";
+char g_sysmenu420022[]="当前状态：关 ";
+char g_sysmenu420023[]="";
+char g_sysmenu420024[]="";
+
+char g_sysmenu420021En[]="Daylight Saving";
+char g_sysmenu420022En[]="Status:Off";
+char g_sysmenu420023En[]="";
+char g_sysmenu420024En[]="";
+
+
+//*****************************************************************************
+
+//****************
+				  
+//菜单变量
+uint8 g_mBestStarNum;//当前最佳目标中恒星数，主要是可用来校准的亮星数
+
+uint8 g_mRaDecMode;//赤经赤纬输入状态，0自定义目标下的输入，1星体升落下的目标输入
+int g_mMoonPhaseYear;
+int g_mMoonPhaseMonth;
+uint8 g_mWeatherShowMode;//天气显示模式
+uint8 g_mShowMenurowEn,g_mShowMenurowCn;  //菜单显示的突出的行
+uint8 g_mShowMenucolumn; //菜单显示的突出的列
+uint32 g_mshowed1,g_mshowed2;  //是否刷新，这两个变量不相等刷新显示，
+bool  g_mbacklight;//望远镜是否点亮背景灯
+uint8 g_mMenuLangauge;//系统菜单语言，0中文，1英语
+uint8 g_mShowLangauge;//系统显示时语言，0中文，1英语
+
+bool g_mCapsLock;//地点名输入时的大小写控制，false小写，true大写
+uint8  g_mKeyTurn;//地点名输入时1-9号键的输入切换
+
+uint8 g_mHandControlTelescope;//望远镜是否在手动状态，0不在手控状态,1在手控状态
+union INT32{
+	long int i;
+	unsigned char ub[4];
+	}position;
+//****************************************************************************
+
+uint32   g_mObjTimer_sec;
+uint32   BuzCnt;
+uint8    BuzMode;  
+uint8   g_mObjAlarm_Time; 
+uint32 	g_mObjAlarm_shi;
+uint32	g_mObjAlarm_fen;
+uint32  g_mObjAlarm_miao;
+uint8   g_mObjAlarm_open;
+int     g_mObjM_MF;
+int     g_mObjM_SF ;
+int     g_mObjM_Multi;
+bool  g_mflashlight;//望远镜是否点手电筒
+int   g_mVir_BL	;//手柄背板亮度
+bool  g_mbattery_alarm;//电池报警
+uint8 Nationnum_temp;
+uint8 Citynum_temp;
+uint8 Nationnum;
+uint8 Citynum;  
+uint8 Custom_flag;
+uint8 CustomCityNum;
+uint16 CustomStarNum;
+uint8 CustomLandmarkNum;
+uint8 CustomCityNum_temp;
+uint16 CustomStarNum_temp;
+uint8 CustomLandmarkNum_temp;
+uint8 CustomCityNum_set;
+uint16 CustomStarNum_set;
+uint8 g_mMyStarShowMode;
+uint8 g_mMyLandmarkShowMode;
+uint8 g_mMyLandmarkOperator;
+uint8 g_mMyStarOperator;
+uint8 g_mShowLandmarkMenurow;
+uint8 sec_intr_counter;
+float g_mNowBestObject [60];//当前最佳目标的数据
+char BestObjectName[30][10];
+char AlignStarName[	10][10];
+
+
+uint8 StarName[8];
+float ra_float;
+float dec_float;
+uint8  ra_byte[3];
+uint8  dec_byte[4];
+
+uint8 LandMarkName[8];
+float az_float;
+float alt_float;
+uint16  az_byte[3];
+uint8  alt_byte[3];
+
+
+
+//*****************************************************************************
+
+//****************					 
+//系统显示变量
+
+char *gstrlineEn1;
+char *gstrlineEn2;
+char *gstrlineEn3;
+char *gstrlineEn4;
+char *gstrlineEn5;
+char *gstrlineEn6;
+char *gstrlineEn7;
+char *gstrlineEn8;
+char *gstrlineEn9;
+
+char *gstrlineEn11;
+char *gstrlineEn12;
+char *gstrlineEn13;
+char *gstrlineEn14;
+char *gstrlineEn15;
+char *gstrlineEn16;
+
+char *gstrlineCn1;
+char *gstrlineCn2;
+char *gstrlineCn3;
+char *gstrlineCn4;
+
+
+char gstrtemp1[20];
+char gstrtemp2[20];
+char gstrtemp3[20];
+char gstrtemp4[20];
+char gstrtemp5[20];
+char gstrtemp6[20];
+char gstrtemp7[20];
+char gstrtemp8[20];
+char gstrtemp9[20];
+
+//****************************************
+
+
+
+//**************************************************
+//**************************************************
+
+
+//菜单函数定义
+//****************************************************
+//****************************************************
+//获取键盘值
+uint8 GetKeyValue();
+//菜单键值函数
+void  DoMenu();
+//望远镜的速度设置和数据输入
+//***************************************
+void FKey0();
+void FKey1();
+void FKey2();
+void FKey3();
+void FKey4();
+void FKey5();
+void FKey6();
+void FKey7();
+void FKey8();
+void FKey9();
+//背景灯开关
+void FKeyXH();
+//系统帮助
+void FKeyWH();
+//进入系统菜单状态
+void FKeyMenu();
+//望远镜菜单退出
+void FKeyBack();
+//望远镜菜单向上循环
+void FKeyUp();
+//望远镜菜单向下循环
+void FKeyDown();
+//输入光标向左移动指示
+void FKeyLeft();
+//输入光标向右移动指示
+void FKeyRight();
+//从主菜单进入子菜单
+//并执行一些最底层菜单的功能
+void FKeyEnter();
+//左上		
+void FKeyLeftUp();
+//左下
+void FKeyLeftDown();
+//右下					
+void FKeyRightDown();
+//右上		
+void FKeyRightUp();
+//**********************************
+
+//显示设置
+void FMenuShowSet();
+//主菜单显示函数
+void  FMenuShow();  
+//菜单语言选择
+void FSelMenuLanguage()	;
+
+
+//主屏显示设置子函数
+void FSysMainShowSet();
+//望远镜主待机显示
+FSysMainShow();
+void MenuDelay (uint16 i) ;
+
+//**************************************
+//菜单系统函数
+//菜单变量初始化
+void FInitPara();
+ //赤经输入光标左移
+void FRaInputMoveLeft() ;
+//赤经输入光标右移
+void FRaInputMoveRight() ;
+//赤纬输入光标左移
+void FDecInputMoveLeft() ;
+//赤纬输入光标右移
+void FDecInputMoveRight();
+//赤经赤纬进入输入状态时赤经赤纬数据转化为要显示的字符串
+void FRaDecInputShow();
+//判断赤经赤纬输入是否正确
+void FVerifyRaDecInput();
+
+ 
+//自定义跟踪速度输入光标左移
+void FRaTrackSpeedInputMoveLeft() ;
+
+//自定义跟踪速度输入光标右移
+void FRaTrackSpeedInputMoveRight() ;
+//星表查找加速度加
+void FFindObjectAccAdd(); //查找星表的速度档1,10,100,1000,10000;
+
+//星表查找加速度减
+void FFindObjectAccDec() ;//查找星表的速度档1,10,100,1000,10000;
+
+
+//*******************************************************
+//望远镜手动函数
+void FHandControlTelescope(uint8  faxis,uint8 fdirect,uint8  sfpeed);
+
+void FHandStopTelescope() ;
+
+void FHandPowerTelescope() ;
+
+double FGetTelescopePos(uint8 faxis) ;
+double FGetTelescopeAltPos();
+
+//时间日期输入光标右移
+void FDateTimeInputMoveRight() ;
+//时间日期输入光标左移
+void FDateTimeInputMoveLeft() ;
+ //地点输入光标右移
+ void  FSiteInputRight();
+ //地点输入光标左移
+ void  FSiteInputLeft();
+  //自定义地点输入函数
+ void  FSiteInput(uint8  num);
+ 
+ //气象输入光标右移
+ void FWeatherInputRight() ;
+
+ //气象输入光标左移
+ void FWeatherInputLeft() ;
+  //气象输入函数
+ void  FWeatherInput(uint8 num);
+
+//*******************************************************
+
+ //设置系统时间
+ uint8 FSetSysTime();
+ //获取系统时间
+void GetTime();
+
+
+//获取当前取佳目标
+void GetNowBestObject(	uint8 num,float *fra,float *fdec );
+
+//设置太阳系的最佳天体
+void SetNowBestObject();
+//设置每日天像天体
+void SetSkyPhObject() ;
+//获取太阳系统内的天体
+void GetSunSysObject(uint8 num,float *fra,float *fdec )	;
+
+
+//****************************************************************************
+
+void FTimerInputMoveLeft();  
+void FTimerInputMoveRight();  
+void FAlarmInputMoveRight()	; 
+void FAlarmInputMoveLeft();
+void FVerifyAlarmInput();
+void FSfocusInputMoveRight();
+void FSfocusInputMoveLeft();
+void FMfocusInputMoveRight();
+void FMfocusInputMoveLeft();
+void FDataInputMoveLeft();
+void FDataInputMoveRight();
+void FTimeInputMoveLeft() ;
+void FTimeInputMoveRight() ;
+void FVerifyDataTimeInput()	;
+void FSaltInputMoveLeft();
+void FSaltInputMoveRight();
+void FLatInputMoveLeft();
+void FLatInputMoveRight();
+void FLonInputMoveLeft();
+void FLonInputMoveRight();
+void FVerifyLonLatSaltInput();
+void FTempInputMoveRight();	
+void FTempInputMoveLeft();	
+void FPreInputMoveRight();	
+void FPreInputMoveLeft();
+void FVerifyTempPreInput(); 
+void FverifyInputSite();    
+void FverifyInputLandmark();
+void F_LandmarkInput(uint8 num);
+void FLandmarkInputLeft();
+void FLandmarkInputRight();
+void F_SelfdefStarInput(uint8 num);
+void FStarInputLeft() ;
+void FStarInputRight() ;
+void FverifyInputStar();
+bool AdjustPlanetRise(double Ra,double Dec,double Lat,double Fstime); 	
+
+//*****************************************************************************
+
+

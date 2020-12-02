@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ObsvTasks>
+  <Target1 Frame="Light" Filter="U" Duration="5" Binning="1" Repeat="5" Name="Venus" RA="10 00 23" DEC="22 09 33" />
+  <Target1 Frame="Dark" Filter="U" Duration="5" Binning="1" Repeat="5" Name="Venus" RA="10 00 23" DEC="22 09 33" />
+  <Target1 Frame="Bias" Filter="U" Duration="5" Binning="1" Repeat="5" Name="Venus" RA="10 00 23" DEC="22 09 33" />
+  <Target1 Frame="Flat" Filter="U" Duration="5" Binning="1" Repeat="5" Name="Venus" RA="10 00 23" DEC="22 09 33" />
+  <Target2 Frame="Light" Filter="U" Duration="5" Binning="1" Repeat="5" Name="mucury" RA="10 00 23" DEC="22 09 33" />
+  <Target2 Frame="Dark" Filter="U" Duration="5" Binning="1" Repeat="5" Name="mucury" RA="10 00 23" DEC="22 09 33" />
+  <Target2 Frame="Bias" Filter="U" Duration="5" Binning="1" Repeat="5" Name="mucury" RA="10 00 23" DEC="22 09 33" />
+  <Target2 Frame="Flat" Filter="U" Duration="5" Binning="1" Repeat="5" Name="mucury" RA="10 00 23" DEC="22 09 33" />
+</ObsvTasks>

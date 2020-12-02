@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ObservatoryCenter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SwitchDriverId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SwitchSim.Switch</Value>
+    </Setting>
+    <Setting Name="MaximDLPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\Program Files (x86)\Diffraction Limited\MaxIm DL V5\MaxIm_DL.exe</Value>
+    </Setting>
+    <Setting Name="CCDAPPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\Program Files (x86)\CCDWare\CCDAutoPilot5\CCDAutoPilot5.exe</Value>
+    </Setting>
+    <Setting Name="CartesPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\Program Files (x86)\Ciel\skychart.exe</Value>
+    </Setting>
+    <Setting Name="SwitchMountPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="SwitchCameraPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="SwitchRoofPowerPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="SwitchRoofSwitchPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="SwitchFocuserPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="RoofDuration" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="RoofDurationMeasurementsCount" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TelescopeDriverId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EQMOD_SIM.Telescope</Value>
+    </Setting>
+    <Setting Name="DomeDriverId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ASCOM.Simulator.Dome</Value>
+    </Setting>
+    <Setting Name="DeviceEnabled_Switch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DeviceEnabled_Dome" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DeviceEnabled_Telescope" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LongGrad" Type="System.String" Scope="User">
+      <Value Profile="(Default)">38</Value>
+    </Setting>
+    <Setting Name="LongMin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LongSec" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LatGrad" Type="System.String" Scope="User">
+      <Value Profile="(Default)">56</Value>
+    </Setting>
+    <Setting Name="LatMin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LatSec" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=PFO Pin=U6-12
+Removed Pin From Net: NetName=DIR Pin=U6-13
+Removed Pin From Net: NetName=STEP Pin=U6-14
+Removed Pin From Net: NetName=PDN Pin=U6-15
+Added Component: Designator=JP-UART2(HDR2.54-LI-5P)
+Added Pin To Net: NetName=D3V3 Pin=JP-UART2-1
+Added Pin To Net: NetName=GND Pin=JP-UART2-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=PFO Pin=U6-10
+Added Pin To Net: NetName=DIR Pin=U6-14
+Added Pin To Net: NetName=STEP Pin=U6-15
+Added Pin To Net: NetName=PDN Pin=U6-16
+Added Pin To Net: NetName=RXD2 Pin=JP-UART2-3
+Added Pin To Net: NetName=RXD2 Pin=U6-12
+Added Net: Name=RXD2
+Added Pin To Net: NetName=SET Pin=JP-UART2-5
+Added Pin To Net: NetName=SET Pin=U6-11
+Added Net: Name=SET
+Added Pin To Net: NetName=TXD2 Pin=JP-UART2-4
+Added Pin To Net: NetName=TXD2 Pin=U6-13
+Added Net: Name=TXD2
+Added Member To Class: ClassName=SSFocuser-B-TMC2208-O Member=Component JP-UART2 HDR-1X5
+Added Room: Name=SSFocuser-B-TMC2208-O

@@ -1,0 +1,772 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+E:\SkyVision\SkyTestR00.uv2
+Project File Date:  09/24/2008
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+Disp.c(286): warning:  #1293-D: assignment in condition
+Disp.c(427): warning:  #1293-D: assignment in condition
+Tst.c(47): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+ROM.c(377): warning:  #177-D: variable "flag" was declared but never referenced
+FAS.c(49): warning:  #177-D: variable "arrb" was declared but never referenced
+Sys.h(473): warning:  #1295-D: Deprecated declaration InitSysPara - give arg types
+Sys.h(476): warning:  #1295-D: Deprecated declaration GetSysTime - give arg types
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(491): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(498): warning:  #870-D: invalid multibyte character sequence
+Menu.h(499): warning:  #870-D: invalid multibyte character sequence
+Menu.h(499): warning:  #870-D: invalid multibyte character sequence
+Menu.h(499): warning:  #870-D: invalid multibyte character sequence
+Menu.h(499): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(500): warning:  #870-D: invalid multibyte character sequence
+Menu.h(501): warning:  #870-D: invalid multibyte character sequence
+Menu.h(501): warning:  #870-D: invalid multibyte character sequence
+Menu.h(501): warning:  #870-D: invalid multibyte character sequence
+Menu.h(501): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(502): warning:  #870-D: invalid multibyte character sequence
+Menu.h(503): warning:  #870-D: invalid multibyte character sequence
+Menu.h(503): warning:  #870-D: invalid multibyte character sequence
+Menu.h(503): warning:  #870-D: invalid multibyte character sequence
+Menu.h(503): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(512): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(513): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(514): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(521): warning:  #870-D: invalid multibyte character sequence
+Menu.h(522): warning:  #870-D: invalid multibyte character sequence
+Menu.h(522): warning:  #870-D: invalid multibyte character sequence
+Menu.h(522): warning:  #870-D: invalid multibyte character sequence
+Menu.h(522): warning:  #870-D: invalid multibyte character sequence
+Menu.h(523): warning:  #870-D: invalid multibyte character sequence
+Menu.h(523): warning:  #870-D: invalid multibyte character sequence
+Menu.h(523): warning:  #870-D: invalid multibyte character sequence
+Menu.h(523): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(524): warning:  #870-D: invalid multibyte character sequence
+Menu.h(533): warning:  #870-D: invalid multibyte character sequence
+Menu.h(533): warning:  #870-D: invalid multibyte character sequence
+Menu.h(533): warning:  #870-D: invalid multibyte character sequence
+Menu.h(533): warning:  #870-D: invalid multibyte character sequence
+Menu.h(534): warning:  #870-D: invalid multibyte character sequence
+Menu.h(534): warning:  #870-D: invalid multibyte character sequence
+Menu.h(534): warning:  #870-D: invalid multibyte character sequence
+Menu.h(534): warning:  #870-D: invalid multibyte character sequence
+Menu.h(534): warning:  #870-D: invalid multibyte character sequence
+Menu.h(534): warning:  #870-D: invalid multibyte character sequence
+Menu.h(535): warning:  #870-D: invalid multibyte character sequence
+Menu.h(535): warning:  #870-D: invalid multibyte character sequence
+Menu.h(535): warning:  #870-D: invalid multibyte character sequence
+Menu.h(535): warning:  #870-D: invalid multibyte character sequence
+Menu.h(535): warning:  #870-D: invalid multibyte character sequence
+Menu.h(535): warning:  #870-D: invalid multibyte character sequence
+Menu.h(544): warning:  #870-D: invalid multibyte character sequence
+Menu.h(544): warning:  #870-D: invalid multibyte character sequence
+Menu.h(544): warning:  #870-D: invalid multibyte character sequence
+Menu.h(544): warning:  #870-D: invalid multibyte character sequence
+Menu.h(544): warning:  #870-D: invalid multibyte character sequence
+Menu.h(544): warning:  #870-D: invalid multibyte character sequence
+Menu.h(545): warning:  #870-D: invalid multibyte character sequence
+Menu.h(545): warning:  #870-D: invalid multibyte character sequence
+Menu.h(545): warning:  #870-D: invalid multibyte character sequence
+Menu.h(545): warning:  #870-D: invalid multibyte character sequence
+Menu.h(545): warning:  #870-D: invalid multibyte character sequence
+Menu.h(545): warning:  #870-D: invalid multibyte character sequence
+Menu.h(546): warning:  #870-D: invalid multibyte character sequence
+Menu.h(546): warning:  #870-D: invalid multibyte character sequence
+Menu.h(546): warning:  #870-D: invalid multibyte character sequence
+Menu.h(546): warning:  #870-D: invalid multibyte character sequence
+Menu.h(546): warning:  #870-D: invalid multibyte character sequence
+Menu.h(546): warning:  #870-D: invalid multibyte character sequence
+Menu.h(561): warning:  #870-D: invalid multibyte character sequence
+Menu.h(561): warning:  #870-D: invalid multibyte character sequence
+Menu.h(561): warning:  #870-D: invalid multibyte character sequence
+Menu.h(561): warning:  #870-D: invalid multibyte character sequence
+Menu.h(562): warning:  #870-D: invalid multibyte character sequence
+Menu.h(562): warning:  #870-D: invalid multibyte character sequence
+Menu.h(562): warning:  #870-D: invalid multibyte character sequence
+Menu.h(562): warning:  #870-D: invalid multibyte character sequence
+Menu.h(563): warning:  #870-D: invalid multibyte character sequence
+Menu.h(563): warning:  #870-D: invalid multibyte character sequence
+Menu.h(563): warning:  #870-D: invalid multibyte character sequence
+Menu.h(563): warning:  #870-D: invalid multibyte character sequence
+Menu.h(563): warning:  #870-D: invalid multibyte character sequence
+Menu.h(563): warning:  #870-D: invalid multibyte character sequence
+Menu.h(564): warning:  #870-D: invalid multibyte character sequence
+Menu.h(564): warning:  #870-D: invalid multibyte character sequence
+Menu.h(564): warning:  #870-D: invalid multibyte character sequence
+Menu.h(564): warning:  #870-D: invalid multibyte character sequence
+Menu.h(564): warning:  #870-D: invalid multibyte character sequence
+Menu.h(564): warning:  #870-D: invalid multibyte character sequence
+Menu.h(565): warning:  #870-D: invalid multibyte character sequence
+Menu.h(565): warning:  #870-D: invalid multibyte character sequence
+Menu.h(565): warning:  #870-D: invalid multibyte character sequence
+Menu.h(565): warning:  #870-D: invalid multibyte character sequence
+Menu.h(565): warning:  #870-D: invalid multibyte character sequence
+Menu.h(565): warning:  #870-D: invalid multibyte character sequence
+Menu.h(566): warning:  #870-D: invalid multibyte character sequence
+Menu.h(566): warning:  #870-D: invalid multibyte character sequence
+Menu.h(566): warning:  #870-D: invalid multibyte character sequence
+Menu.h(566): warning:  #870-D: invalid multibyte character sequence
+Menu.h(566): warning:  #870-D: invalid multibyte character sequence
+Menu.h(566): warning:  #870-D: invalid multibyte character sequence
+Menu.h(571): warning:  #870-D: invalid multibyte character sequence
+Menu.h(571): warning:  #870-D: invalid multibyte character sequence
+Menu.h(571): warning:  #870-D: invalid multibyte character sequence
+Menu.h(571): warning:  #870-D: invalid multibyte character sequence
+Menu.h(571): warning:  #870-D: invalid multibyte character sequence
+Menu.h(571): warning:  #870-D: invalid multibyte character sequence
+Menu.h(572): warning:  #870-D: invalid multibyte character sequence
+Menu.h(572): warning:  #870-D: invalid multibyte character sequence
+Menu.h(572): warning:  #870-D: invalid multibyte character sequence
+Menu.h(572): warning:  #870-D: invalid multibyte character sequence
+Menu.h(572): warning:  #870-D: invalid multibyte character sequence
+Menu.h(572): warning:  #870-D: invalid multibyte character sequence
+Menu.h(573): warning:  #870-D: invalid multibyte character sequence
+Menu.h(573): warning:  #870-D: invalid multibyte character sequence
+Menu.h(573): warning:  #870-D: invalid multibyte character sequence
+Menu.h(573): warning:  #870-D: invalid multibyte character sequence
+Menu.h(573): warning:  #870-D: invalid multibyte character sequence
+Menu.h(573): warning:  #870-D: invalid multibyte character sequence
+Menu.h(574): warning:  #870-D: invalid multibyte character sequence
+Menu.h(574): warning:  #870-D: invalid multibyte character sequence
+Menu.h(574): warning:  #870-D: invalid multibyte character sequence
+Menu.h(574): warning:  #870-D: invalid multibyte character sequence
+Menu.h(574): warning:  #870-D: invalid multibyte character sequence
+Menu.h(574): warning:  #870-D: invalid multibyte character sequence
+Menu.h(575): warning:  #870-D: invalid multibyte character sequence
+Menu.h(575): warning:  #870-D: invalid multibyte character sequence
+Menu.h(575): warning:  #870-D: invalid multibyte character sequence
+Menu.h(575): warning:  #870-D: invalid multibyte character sequence
+Menu.h(575): warning:  #870-D: invalid multibyte character sequence
+Menu.h(575): warning:  #870-D: invalid multibyte character sequence
+Menu.h(578): warning:  #870-D: invalid multibyte character sequence
+Menu.h(578): warning:  #870-D: invalid multibyte character sequence
+Menu.h(578): warning:  #870-D: invalid multibyte character sequence
+Menu.h(578): warning:  #870-D: invalid multibyte character sequence
+Menu.h(579): warning:  #870-D: invalid multibyte character sequence
+Menu.h(579): warning:  #870-D: invalid multibyte character sequence
+Menu.h(579): warning:  #870-D: invalid multibyte character sequence
+Menu.h(579): warning:  #870-D: invalid multibyte character sequence
+Menu.h(580): warning:  #870-D: invalid multibyte character sequence
+Menu.h(580): warning:  #870-D: invalid multibyte character sequence
+Menu.h(580): warning:  #870-D: invalid multibyte character sequence
+Menu.h(580): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(582): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(583): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(585): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(586): warning:  #870-D: invalid multibyte character sequence
+Menu.h(592): warning:  #870-D: invalid multibyte character sequence
+Menu.h(592): warning:  #870-D: invalid multibyte character sequence
+Menu.h(592): warning:  #870-D: invalid multibyte character sequence
+Menu.h(592): warning:  #870-D: invalid multibyte character sequence
+Menu.h(593): warning:  #870-D: invalid multibyte character sequence
+Menu.h(593): warning:  #870-D: invalid multibyte character sequence
+Menu.h(593): warning:  #870-D: invalid multibyte character sequence
+Menu.h(593): warning:  #870-D: invalid multibyte character sequence
+Menu.h(594): warning:  #870-D: invalid multibyte character sequence
+Menu.h(594): warning:  #870-D: invalid multibyte character sequence
+Menu.h(594): warning:  #870-D: invalid multibyte character sequence
+Menu.h(594): warning:  #870-D: invalid multibyte character sequence
+Menu.h(595): warning:  #870-D: invalid multibyte character sequence
+Menu.h(595): warning:  #870-D: invalid multibyte character sequence
+Menu.h(595): warning:  #870-D: invalid multibyte character sequence
+Menu.h(595): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(660): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(663): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(665): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(666): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(668): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(682): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(685): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(687): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(689): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(704): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(705): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(715): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(716): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(725): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(726): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(736): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(737): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(746): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(747): warning:  #870-D: invalid multibyte character sequence
+Menu.h(901): warning:  #1295-D: Deprecated declaration GetKeyValue - give arg types
+Menu.h(903): warning:  #1295-D: Deprecated declaration DoMenu - give arg types
+Menu.h(906): warning:  #1295-D: Deprecated declaration FKey0 - give arg types
+Menu.h(907): warning:  #1295-D: Deprecated declaration FKey1 - give arg types
+Menu.h(908): warning:  #1295-D: Deprecated declaration FKey2 - give arg types
+Menu.h(909): warning:  #1295-D: Deprecated declaration FKey3 - give arg types
+Menu.h(910): warning:  #1295-D: Deprecated declaration FKey4 - give arg types
+Menu.h(911): warning:  #1295-D: Deprecated declaration FKey5 - give arg types
+Menu.h(912): warning:  #1295-D: Deprecated declaration FKey6 - give arg types
+Menu.h(913): warning:  #1295-D: Deprecated declaration FKey7 - give arg types
+Menu.h(914): warning:  #1295-D: Deprecated declaration FKey8 - give arg types
+Menu.h(915): warning:  #1295-D: Deprecated declaration FKey9 - give arg types
+Menu.h(917): warning:  #1295-D: Deprecated declaration FKeyXH - give arg types
+Menu.h(919): warning:  #1295-D: Deprecated declaration FKeyWH - give arg types
+Menu.h(921): warning:  #1295-D: Deprecated declaration FKeyMenu - give arg types
+Menu.h(923): warning:  #1295-D: Deprecated declaration FKeyBack - give arg types
+Menu.h(925): warning:  #1295-D: Deprecated declaration FKeyUp - give arg types
+Menu.h(927): warning:  #1295-D: Deprecated declaration FKeyDown - give arg types
+Menu.h(929): warning:  #1295-D: Deprecated declaration FKeyLeft - give arg types
+Menu.h(931): warning:  #1295-D: Deprecated declaration FKeyRight - give arg types
+Menu.h(934): warning:  #1295-D: Deprecated declaration FKeyEnter - give arg types
+Menu.h(936): warning:  #1295-D: Deprecated declaration FKeyLeftUp - give arg types
+Menu.h(938): warning:  #1295-D: Deprecated declaration FKeyLeftDown - give arg types
+Menu.h(940): warning:  #1295-D: Deprecated declaration FKeyRightDown - give arg types
+Menu.h(942): warning:  #1295-D: Deprecated declaration FKeyRightUp - give arg types
+Menu.h(946): warning:  #1295-D: Deprecated declaration FMenuShowSet - give arg types
+Menu.h(948): warning:  #1295-D: Deprecated declaration FMenuShow - give arg types
+Menu.h(950): warning:  #1295-D: Deprecated declaration FSelMenuLanguage - give arg types
+Menu.h(954): warning:  #1295-D: Deprecated declaration FSysMainShowSet - give arg types
+Menu.h(956): warning:  #1295-D: Deprecated declaration FSysMainShow - give arg types
+Menu.h(956): warning:  #77-D: this declaration has no storage class or type specifier
+Menu.h(962): warning:  #1295-D: Deprecated declaration FInitPara - give arg types
+Menu.h(964): warning:  #1295-D: Deprecated declaration FRaInputMoveLeft - give arg types
+Menu.h(966): warning:  #1295-D: Deprecated declaration FRaInputMoveRight - give arg types
+Menu.h(968): warning:  #1295-D: Deprecated declaration FDecInputMoveLeft - give arg types
+Menu.h(970): warning:  #1295-D: Deprecated declaration FDecInputMoveRight - give arg types
+Menu.h(972): warning:  #1295-D: Deprecated declaration FRaDecInputShow - give arg types
+Menu.h(974): warning:  #1295-D: Deprecated declaration FVerifyRaDecInput - give arg types
+Menu.h(978): warning:  #1295-D: Deprecated declaration FRaTrackSpeedInputMoveLeft - give arg types
+Menu.h(981): warning:  #1295-D: Deprecated declaration FRaTrackSpeedInputMoveRight - give arg types
+Menu.h(983): warning:  #1295-D: Deprecated declaration FFindObjectAccAdd - give arg types
+Menu.h(986): warning:  #1295-D: Deprecated declaration FFindObjectAccDec - give arg types
+Menu.h(994): warning:  #1295-D: Deprecated declaration FHandStopTelescope - give arg types
+Menu.h(996): warning:  #1295-D: Deprecated declaration FHandPowerTelescope - give arg types
+Menu.h(999): warning:  #1295-D: Deprecated declaration FGetTelescopeAltPos - give arg types
+Menu.h(1002): warning:  #1295-D: Deprecated declaration FDateTimeInputMoveRight - give arg types
+Menu.h(1004): warning:  #1295-D: Deprecated declaration FDateTimeInputMoveLeft - give arg types
+Menu.h(1006): warning:  #1295-D: Deprecated declaration FSiteInputRight - give arg types
+Menu.h(1008): warning:  #1295-D: Deprecated declaration FSiteInputLeft - give arg types
+Menu.h(1013): warning:  #1295-D: Deprecated declaration FWeatherInputRight - give arg types
+Menu.h(1016): warning:  #1295-D: Deprecated declaration FWeatherInputLeft - give arg types
+Menu.h(1023): warning:  #1295-D: Deprecated declaration FSetSysTime - give arg types
+Menu.h(1025): warning:  #1295-D: Deprecated declaration GetTime - give arg types
+Menu.h(1032): warning:  #1295-D: Deprecated declaration SetNowBestObject - give arg types
+Menu.h(1034): warning:  #1295-D: Deprecated declaration SetSkyPhObject - give arg types
+Menu.h(1042): warning:  #1295-D: Deprecated declaration FTimerInputMoveLeft - give arg types
+Menu.h(1043): warning:  #1295-D: Deprecated declaration FTimerInputMoveRight - give arg types
+Menu.h(1044): warning:  #1295-D: Deprecated declaration FAlarmInputMoveRight - give arg types
+Menu.h(1045): warning:  #1295-D: Deprecated declaration FAlarmInputMoveLeft - give arg types
+Menu.h(1046): warning:  #1295-D: Deprecated declaration FVerifyAlarmInput - give arg types
+Menu.h(1047): warning:  #1295-D: Deprecated declaration FSfocusInputMoveRight - give arg types
+Menu.h(1048): warning:  #1295-D: Deprecated declaration FSfocusInputMoveLeft - give arg types
+Menu.h(1049): warning:  #1295-D: Deprecated declaration FMfocusInputMoveRight - give arg types
+Menu.h(1050): warning:  #1295-D: Deprecated declaration FMfocusInputMoveLeft - give arg types
+Menu.h(1051): warning:  #1295-D: Deprecated declaration FDataInputMoveLeft - give arg types
+Menu.h(1052): warning:  #1295-D: Deprecated declaration FDataInputMoveRight - give arg types
+Menu.h(1053): warning:  #1295-D: Deprecated declaration FTimeInputMoveLeft - give arg types
+Menu.h(1054): warning:  #1295-D: Deprecated declaration FTimeInputMoveRight - give arg types
+Menu.h(1055): warning:  #1295-D: Deprecated declaration FVerifyDataTimeInput - give arg types
+Menu.h(1056): warning:  #1295-D: Deprecated declaration FSaltInputMoveLeft - give arg types
+Menu.h(1057): warning:  #1295-D: Deprecated declaration FSaltInputMoveRight - give arg types
+Menu.h(1058): warning:  #1295-D: Deprecated declaration FLatInputMoveLeft - give arg types
+Menu.h(1059): warning:  #1295-D: Deprecated declaration FLatInputMoveRight - give arg types
+Menu.h(1060): warning:  #1295-D: Deprecated declaration FLonInputMoveLeft - give arg types
+Menu.h(1061): warning:  #1295-D: Deprecated declaration FLonInputMoveRight - give arg types
+Menu.h(1062): warning:  #1295-D: Deprecated declaration FVerifyLonLatSaltInput - give arg types
+Menu.h(1063): warning:  #1295-D: Deprecated declaration FTempInputMoveRight - give arg types
+Menu.h(1064): warning:  #1295-D: Deprecated declaration FTempInputMoveLeft - give arg types
+Menu.h(1065): warning:  #1295-D: Deprecated declaration FPreInputMoveRight - give arg types
+Menu.h(1066): warning:  #1295-D: Deprecated declaration FPreInputMoveLeft - give arg types
+Menu.h(1067): warning:  #1295-D: Deprecated declaration FVerifyTempPreInput - give arg types
+Menu.h(1068): warning:  #1295-D: Deprecated declaration FverifyInputSite - give arg types
+Menu.h(1069): warning:  #1295-D: Deprecated declaration FverifyInputLandmark - give arg types
+Menu.h(1071): warning:  #1295-D: Deprecated declaration FLandmarkInputLeft - give arg types
+Menu.h(1072): warning:  #1295-D: Deprecated declaration FLandmarkInputRight - give arg types
+Menu.h(1074): warning:  #1295-D: Deprecated declaration FStarInputLeft - give arg types
+Menu.h(1075): warning:  #1295-D: Deprecated declaration FStarInputRight - give arg types
+Menu.h(1076): warning:  #1295-D: Deprecated declaration FverifyInputStar - give arg types
+Sys.h(473): warning:  #1295-D: Deprecated declaration InitSysPara - give arg types
+Sys.h(476): warning:  #1295-D: Deprecated declaration GetSysTime - give arg types
+Sys.c(161): warning:  #186-D: pointless comparison of unsigned integer with zero
+Sys.c(165): warning:  #186-D: pointless comparison of unsigned integer with zero
+Sys.c(210): warning:  #186-D: pointless comparison of unsigned integer with zero
+TelescopeControl.h(245): warning:  #1295-D: Deprecated declaration GotoEQ - give arg types
+TelescopeControl.h(256): warning:  #1295-D: Deprecated declaration GotoAZ - give arg types
+TelescopeControl.h(372): warning:  #1295-D: Deprecated declaration FStartGoto - give arg types
+TelescopeControl.h(379): warning:  #1295-D: Deprecated declaration FStopGoto - give arg types
+TelescopeControl.h(411): warning:  #1295-D: Deprecated declaration FAutoAlign - give arg types
+TelescopeControl.h(418): warning:  #1295-D: Deprecated declaration FPointAlignStarOk - give arg types
+TelescopeControl.h(426): warning:  #1295-D: Deprecated declaration FStartGoto - give arg types
+TelescopeControl.h(433): warning:  #1295-D: Deprecated declaration FStopGoto - give arg types
+TelescopeControl.h(447): warning:  #1295-D: Deprecated declaration FTwoStarAutoAlign - give arg types
+TelescopeControl.h(452): warning:  #1295-D: Deprecated declaration FOneStarAlign - give arg types
+TelescopeControl.h(458): warning:  #1295-D: Deprecated declaration FTwoStarAlign - give arg types
+TelescopeControl.h(464): warning:  #1295-D: Deprecated declaration FThreeStarAlign - give arg types
+TelescopeControl.h(481): warning:  #1295-D: Deprecated declaration FSetupPointTrackPara - give arg types
+TelescopeControl.h(501): warning:  #1295-D: Deprecated declaration FDriveTelescopeNew - give arg types
+TelescopeControl.c(162): warning:  #111-D: statement is unreachable
+TelescopeControl.c(165): warning:  #111-D: statement is unreachable
+TelescopeControl.c(168): warning:  #111-D: statement is unreachable
+TelescopeControl.c(171): warning:  #111-D: statement is unreachable
+TelescopeControl.c(372): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(393): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(128): warning:  #177-D: variable "m_nStarAZ" was declared but never referenced
+TelescopeControl.c(129): warning:  #550-D: variable "m_ntsetting" was set but never used
+TelescopeControl.c(130): warning:  #177-D: variable "m_nalignstaraz" was declared but never referenced
+TelescopeControl.c(133): warning:  #177-D: variable "m_nTempStarAzimuth" was declared but never referenced
+TelescopeControl.c(717): warning:  #111-D: statement is unreachable
+TelescopeControl.c(720): warning:  #111-D: statement is unreachable
+TelescopeControl.c(723): warning:  #111-D: statement is unreachable
+TelescopeControl.c(726): warning:  #111-D: statement is unreachable
+TelescopeControl.c(843): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(864): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(689): warning:  #550-D: variable "m_nTempStarAzimuth" was set but never used
+TelescopeControl.c(691): warning:  #177-D: variable "m_nSidTime" was declared but never referenced
+TelescopeControl.c(692): warning:  #177-D: variable "m_nHourAngle" was declared but never referenced
+TelescopeControl.c(1607): warning:  #177-D: variable "m_nAacc" was declared but never referenced
+TelescopeControl.c(1607): warning:  #177-D: variable "m_nZacc" was declared but never referenced
+TelescopeControl.c(1761): warning:  #177-D: variable "dR" was declared but never referenced
+TelescopeControl.c(1797): warning:  #550-D: variable "m_nApi" was set but never used
+TelescopeControl.c(1797): warning:  #550-D: variable "m_nZpi" was set but never used
+TelescopeControl.c(2435): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2445): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2452): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2460): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2476): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2514): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2518): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2527): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2533): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2576): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2587): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2595): warning:  #9-D: nested comment is not allowed
+TelescopeControl.c(2622): warning:  #177-D: variable "mA3" was declared but never referenced
+TelescopeControl.c(2622): warning:  #177-D: variable "mE3" was declared but never referenced
+TelescopeControl.c(2624): warning:  #550-D: variable "ca11" was set but never used
+TelescopeControl.c(2624): warning:  #550-D: variable "ca21" was set but never used
+TelescopeControl.c(2625): warning:  #550-D: variable "ce11" was set but never used
+TelescopeControl.c(2625): warning:  #550-D: variable "ce21" was set but never used
+TelescopeControl.c(2712): warning:  #550-D: variable "ca11" was set but never used
+TelescopeControl.c(2712): warning:  #177-D: variable "ca12" was declared but never referenced
+TelescopeControl.c(2713): warning:  #550-D: variable "ca21" was set but never used
+TelescopeControl.c(2713): warning:  #177-D: variable "ca22" was declared but never referenced
+TelescopeControl.c(2714): warning:  #550-D: variable "ca31" was set but never used
+TelescopeControl.c(2714): warning:  #177-D: variable "ca32" was declared but never referenced
+TelescopeControl.c(2715): warning:  #550-D: variable "ce11" was set but never used
+TelescopeControl.c(2715): warning:  #177-D: variable "ce12" was declared but never referenced
+TelescopeControl.c(2715): warning:  #177-D: variable "ce13" was declared but never referenced
+TelescopeControl.c(2715): warning:  #177-D: variable "ce14" was declared but never referenced
+TelescopeControl.c(2716): warning:  #550-D: variable "ce21" was set but never used
+TelescopeControl.c(2716): warning:  #177-D: variable "ce22" was declared but never referenced
+TelescopeControl.c(2716): warning:  #177-D: variable "ce23" was declared but never referenced
+TelescopeControl.c(2716): warning:  #177-D: variable "ce24" was declared but never referenced
+TelescopeControl.c(2717): warning:  #550-D: variable "ce31" was set but never used
+TelescopeControl.c(2717): warning:  #177-D: variable "ce32" was declared but never referenced
+TelescopeControl.c(2717): warning:  #177-D: variable "ce33" was declared but never referenced
+TelescopeControl.c(2717): warning:  #177-D: variable "ce34" was declared but never referenced
+TelescopeControl.c(2718): warning:  #177-D: variable "a" was declared but never referenced
+TelescopeControl.c(2718): warning:  #177-D: variable "a1" was declared but never referenced
+TelescopeControl.c(2718): warning:  #177-D: variable "a2" was declared but never referenced
+TelescopeControl.c(2718): warning:  #177-D: variable "e" was declared but never referenced
+TelescopeControl.c(2718): warning:  #177-D: variable "e1" was declared but never referenced
+TelescopeControl.c(2718): warning:  #177-D: variable "e2" was declared but never referenced
+TelescopeControl.c(3227): warning:  #177-D: variable "msendspda" was declared but never referenced
+TelescopeControl.c(3227): warning:  #177-D: variable "msendspde" was declared but never referenced
+TelescopeControl.c(3233): warning:  #550-D: variable "m_nDriveETelPos" was set but never used
+Menu.c(1893): warning:  #9-D: nested comment is not allowed
+Menu.c(1898): warning:  #9-D: nested comment is not allowed
+Menu.c(1916): warning:  #9-D: nested comment is not allowed
+Menu.c(1921): warning:  #9-D: nested comment is not allowed
+Menu.c(3405): warning:  #174-D: expression has no effect
+Menu.c(3813): warning:  #111-D: statement is unreachable
+Menu.c(4895): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4895): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4895): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4895): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4895): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4895): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4897): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4897): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4897): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4897): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4897): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4897): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4899): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4899): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4899): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4899): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4899): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4899): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4901): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4901): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4901): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4901): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4901): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4901): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4906): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4906): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4906): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4906): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4906): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4906): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4908): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4908): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4908): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4908): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4908): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4908): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4910): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4910): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4910): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4910): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4910): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4910): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4912): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4912): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4912): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4912): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4912): warning:  #870-D: invalid multibyte character sequence
+Menu.c(4912): warning:  #870-D: invalid multibyte character sequence
+Menu.c(5151): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(7575): warning:  #111-D: statement is unreachable
+Menu.c(8323): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(8332): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9210): warning:  #181-D: argument is incompatible with corresponding format string conversion
+Menu.c(9399): warning:  #223-D: function "strlen" declared implicitly
+Menu.c(9488): warning:  #223-D: function "strlen" declared implicitly
+Menu.c(9911): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9912): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9913): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9914): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9917): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9918): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9919): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9920): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9923): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9924): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9925): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9926): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9929): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9930): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9931): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9932): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9935): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9936): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9937): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9938): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9941): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9942): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9943): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(9944): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8 *"
+Menu.c(10899): warning:  #940-D: missing return statement at end of non-void function "FGetTelescopePos"
+Menu.c(10804): warning:  #177-D: variable "m_npos1" was declared but never referenced
+Menu.c(10805): warning:  #177-D: variable "m_npos2" was declared but never referenced
+Menu.c(10806): warning:  #177-D: variable "m_npos3" was declared but never referenced
+Menu.c(10904): warning:  #177-D: variable "m_npos1" was declared but never referenced
+Menu.c(10905): warning:  #177-D: variable "m_npos2" was declared but never referenced
+Menu.c(10906): warning:  #177-D: variable "m_npos3" was declared but never referenced
+Menu.c(12299): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12299): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12299): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12299): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12299): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12299): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12304): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12304): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12304): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12304): warning:  #870-D: invalid multibyte character sequence
+Menu.c(12320): warning:  #550-D: variable "RTCtime" was set but never used
+Menu.c(13408): warning:  #940-D: missing return statement at end of non-void function "AdjustPlanetRise"
+Menu.c(13351): warning:  #177-D: variable "i" was declared but never referenced
+Menu.c(13352): warning:  #177-D: variable "j" was declared but never referenced
+Menu.c(13353): warning:  #177-D: variable "k" was declared but never referenced
+ASCOM.c(27): warning:  #177-D: variable "i" was declared but never referenced
+ASCOM.c(101): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=261272 RO-data=6420 RW-data=5844 ZI-data=4588  
+FromELF: creating hex file...
+"SkyTestR00.axf" - 0 Error(s), 756 Warning(s).

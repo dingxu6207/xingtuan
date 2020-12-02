@@ -1,0 +1,1 @@
+.\ascom.o: ASCOM.c

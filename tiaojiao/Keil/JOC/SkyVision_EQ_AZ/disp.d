@@ -1,0 +1,1 @@
+.\disp.o: Disp.c

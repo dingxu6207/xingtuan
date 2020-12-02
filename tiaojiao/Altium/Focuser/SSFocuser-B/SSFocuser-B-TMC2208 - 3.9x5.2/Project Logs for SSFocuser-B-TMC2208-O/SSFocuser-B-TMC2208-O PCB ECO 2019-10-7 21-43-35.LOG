@@ -1,0 +1,15 @@
+Added Component: Designator=P1(DC_5.5MM)
+Added Component: Designator=P4(XH_4_V)
+Added Pin To Net: NetName=NetD1_1 Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Pin To Net: NetName=GND Pin=P2-5
+Added Pin To Net: NetName=GND Pin=P2-6
+Added Pin To Net: NetName=B2 Pin=P4-1
+Added Pin To Net: NetName=B1 Pin=P4-2
+Added Pin To Net: NetName=A1 Pin=P4-3
+Added Pin To Net: NetName=A2 Pin=P4-4
+Change Class Name : Old Net Name=SSFocuser-B-TMC2208 New Net Name=SSFocuser-B-TMC2208-O
+Added Member To Class: ClassName=SSFocuser-B-TMC2208-O Member=Component P1 SOURCE
+Added Member To Class: ClassName=SSFocuser-B-TMC2208-O Member=Component P4 Header 4
+Added Room: Name=SSFocuser-B-TMC2208-O

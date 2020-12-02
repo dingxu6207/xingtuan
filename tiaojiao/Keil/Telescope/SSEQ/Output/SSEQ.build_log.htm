@@ -1,0 +1,172 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Microsoft Microsoft, Microsoft, LIC=TA3WF-6JRLV-48QFA-1PZUR-JYCSQ-HWV0Q
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\Projects\Keil\Telescope\SSEQ\Project\RVMDK£¨uv5£©\SSEQ.uvprojx
+Project File Date:  05/20/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'SSEQ'
+assembling startup_stm32f10x_hd.s...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling main.c...
+compiling bsp_SysTick.c...
+compiling stm32f10x_it.c...
+compiling bsp_usart.c...
+compiling bsp_usart_blt.c...
+compiling bsp_ds18b20.c...
+compiling bsp_TiMbase.c...
+compiling at24c02.c...
+compiling iodef.c...
+compiling AstroEQ.c...
+..\..\User\AstroEQ\AstroEQ.c(1935): error:  #35: #error directive: Unsupported Part! Please use an Arduino Mega, or ATMega162
+  #error Unsupported Part! Please use an Arduino Mega, or ATMega162
+..\..\User\AstroEQ\AstroEQ.c: 0 warnings, 1 error
+compiling commands.c...
+..\..\User\AstroEQ\AstroEQ.h(213): error:  #35: #error directive: Unsupported Part! Please use an Arduino Mega, or ATMega162
+  #error Unsupported Part! Please use an Arduino Mega, or ATMega162
+..\..\User\AstroEQ\commands.c: 0 warnings, 1 error
+compiling pfo.c...
+compiling EEPROMReader.c...
+..\..\User\AstroEQ\EEPROMReader.c(2): error:  #5: cannot open source input file "avr/eeprom.h": No such file or directory
+  #include <avr/eeprom.h>
+..\..\User\AstroEQ\EEPROMReader.c: 0 warnings, 1 error
+compiling SerialLink.c...
+..\..\User\AstroEQ\AstroEQ.h(213): error:  #35: #error directive: Unsupported Part! Please use an Arduino Mega, or ATMega162
+  #error Unsupported Part! Please use an Arduino Mega, or ATMega162
+..\..\User\AstroEQ\SerialLink.c: 0 warnings, 1 error
+compiling synta.c...
+..\..\User\AstroEQ\AstroEQ.h(213): error:  #35: #error directive: Unsupported Part! Please use an Arduino Mega, or ATMega162
+  #error Unsupported Part! Please use an Arduino Mega, or ATMega162
+..\..\User\AstroEQ\synta.c: 0 warnings, 1 error
+compiling COM.c...
+..\..\User\SSEQ\COM.c(24): error:  #20: identifier "BT_COMMAND_STR" is undefined
+        if ((BT_COMMAND_STR != ":GR") && (BT_COMMAND_STR != ":GD") && (BT_COMMAND_STR != "")){
+..\..\User\SSEQ\COM.c(25): error:  #20: identifier "IS_SOUND_ON" is undefined
+          if (IS_SOUND_ON){
+..\..\User\SSEQ\COM.c(26): warning:  #223-D: function "SoundOn" declared implicitly
+            SoundOn(note_c,8);
+..\..\User\SSEQ\COM.c(26): error:  #20: identifier "note_c" is undefined
+            SoundOn(note_c,8);
+..\..\User\SSEQ\COM.c(28): error:  #20: identifier "BTs" is undefined
+          BTs += "\r\n";
+..\..\User\SSEQ\COM.c(29): error:  #20: identifier "rtc" is undefined
+          BTs += rtc.getTimeStr(FORMAT_LONG);
+..\..\User\SSEQ\COM.c(29): error:  #20: identifier "FORMAT_LONG" is undefined
+          BTs += rtc.getTimeStr(FORMAT_LONG);
+..\..\User\SSEQ\COM.c(37): error:  #20: identifier "String" is undefined
+          String date_time = BT_COMMAND_STR.substring(i+9,BT_COMMAND_STR.length());
+..\..\User\SSEQ\COM.c(44): error:  #20: identifier "rtc" is undefined
+          rtc.setTime(hh,mm,ss);
+..\..\User\SSEQ\COM.c(45): error:  #268: declaration may not appear after executable statement in block
+          int k3 = date_time.indexOf(":", k2+1);
+..\..\User\SSEQ\COM.c(46): error:  #268: declaration may not appear after executable statement in block
+          int k4 = date_time.indexOf(":", k3+1);
+..\..\User\SSEQ\COM.c(47): error:  #268: declaration may not appear after executable statement in block
+          int k5 = date_time.indexOf(":", k4+1);
+..\..\User\SSEQ\COM.c(48): error:  #268: declaration may not appear after executable statement in block
+          int yy = date_time.substring(k2+1,k3).toInt();
+..\..\User\SSEQ\COM.c(49): error:  #268: declaration may not appear after executable statement in block
+          int mo = date_time.substring(k3+1,k4).toInt();
+..\..\User\SSEQ\COM.c(50): error:  #268: declaration may not appear after executable statement in block
+          int dd = date_time.substring(k4+1,k5).toInt();
+..\..\User\SSEQ\COM.c(51): error:  #20: identifier "Summer_Time" is undefined
+          Summer_Time = date_time.substring(k5+1,date_time.length()).toInt();
+..\..\User\SSEQ\COM.c(54): error:  #20: identifier "Serial3" is undefined
+          Serial3.print("synClock: ");
+..\..\User\SSEQ\COM.c(55): error:  #20: identifier "FORMAT_LONG" is undefined
+          Serial3.print(rtc.getTimeStr(FORMAT_LONG));
+..\..\User\SSEQ\COM.c(57): error:  #20: identifier "FORMAT_LITTLEENDIAN" is undefined
+          Serial3.print(rtc.getDateStr(FORMAT_LITTLEENDIAN));
+..\..\User\SSEQ\COM.c(67): error:  #20: identifier "String" is undefined
+          String gps_str = BT_COMMAND_STR.substring(i+7,BT_COMMAND_STR.length());
+..\..\User\SSEQ\COM.c(71): error:  #20: identifier "OBSERVATION_LATTITUDE" is undefined
+          OBSERVATION_LATTITUDE = gps_str.substring(0,k0).toFloat();
+..\..\User\SSEQ\COM.c(72): error:  #20: identifier "OBSERVATION_LONGITUDE" is undefined
+          OBSERVATION_LONGITUDE = gps_str.substring(k0+1,k1).toFloat();
+..\..\User\SSEQ\COM.c(73): error:  #20: identifier "OBSERVATION_ALTITUDE" is undefined
+          OBSERVATION_ALTITUDE = gps_str.substring(k1+1,k2).toFloat();
+..\..\User\SSEQ\COM.c(74): error:  #20: identifier "TIME_ZONE" is undefined
+          TIME_ZONE = gps_str.substring(k2+1,gps_str.length()).toInt();
+..\..\User\SSEQ\COM.c(75): error:  #20: identifier "Serial3" is undefined
+          Serial3.print("synGPS: ");
+..\..\User\SSEQ\COM.c(85): error:  #20: identifier "IS_TRACKING" is undefined
+           IS_TRACKING = false;
+..\..\User\SSEQ\COM.c(85): error:  #20: identifier "false" is undefined
+           IS_TRACKING = false;
+..\..\User\SSEQ\COM.c(86): error:  #20: identifier "Timer3" is undefined
+           Timer3.stop();
+..\..\User\SSEQ\COM.c(87): error:  #20: identifier "OBJECT_NAME" is undefined
+           OBJECT_NAME = "CP";
+..\..\User\SSEQ\COM.c(88): error:  #20: identifier "OBJECT_DESCR" is undefined
+           OBJECT_DESCR = "Celestial pole";
+..\..\User\SSEQ\COM.c(89): error:  #20: identifier "OBJECT_RA_H" is undefined
+           OBJECT_RA_H = 12;
+..\..\User\SSEQ\COM.c: 1 warning, 30 errors
+compiling SSEQ.c...
+..\..\User\SSEQ\SSEQ.c(62): error:  #5: cannot open source input file "DHT.h": No such file or directory
+  #include "DHT.h"
+..\..\User\SSEQ\SSEQ.c: 0 warnings, 1 error
+"..\..\Output\SSEQ.axf" - 36 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_SSEQ
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:12
+</pre>
+</body>
+</html>

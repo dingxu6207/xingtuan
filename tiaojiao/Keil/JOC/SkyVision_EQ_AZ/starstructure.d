@@ -1,0 +1,1 @@
+.\starstructure.o: starstructure.c

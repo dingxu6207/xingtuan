@@ -1,0 +1,4 @@
+"startup.o" "main.o" --device DARMP --strict --scatter "SkyTestR00.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SkyTestR00.map" -o "SkyTestR00.axf"

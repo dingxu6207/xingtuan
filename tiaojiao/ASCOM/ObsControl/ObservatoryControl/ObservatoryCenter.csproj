@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D60368F3-AD27-459E-BBF8-07944FB4BE5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ObservatoryCenter</RootNamespace>
+    <AssemblyName>ObservatoryCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://srv025.infobox.ru/htdocs/Symfony2/web/obscontrol_soft/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>http://astromania.info/obscontrol_soft/</InstallUrl>
+    <UpdateUrl>http://astromania.info/obscontrol_soft/</UpdateUrl>
+    <SupportUrl>http://astromania.info</SupportUrl>
+    <ProductName>Observatory Control</ProductName>
+    <PublisherName>Astromania.info</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>obscontrolinstall.htm</WebPage>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>118</ApplicationRevision>
+    <ApplicationVersion>1.4.8.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>ObservatoryCenter.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\logo_observ2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3D8F534BDD9E83C241DE163301E625BDA96E38EE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ObservatoryCenter_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>Internet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>VSFiles\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASCOM.Astrometry, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.Attributes, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.Controls, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.DeviceInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.DriverAccess, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.Exceptions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.Internal.Extensions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.SettingsProvider, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ASCOM.Utilities, Version=6.0.0.0, Culture=neutral, PublicKeyToken=565de7938946fba7, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CPI.Plot3D">
+      <HintPath>..\CPI.Plot3D\CPI.Plot3D\bin\Debug\CPI.Plot3D.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Microsoft.VisualBasic.PowerPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AstroUtilsASCOM.cs" />
+    <Compile Include="ConfigManaging.cs" />
+    <Compile Include="Logging.cs" />
+    <Compile Include="MainForm_Guiding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\About.cs" />
+    <Compile Include="Modules\BoltwoodClasses.cs" />
+    <Compile Include="ObservatoryControls_ASCOMFocuser.cs" />
+    <Compile Include="ObservatoryControls_boltwood.cs" />
+    <Compile Include="MainForm_ShortForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm_Updates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObservatoryControls_ASCOMTelescope.cs" />
+    <Compile Include="ProgControls_CCDC.cs" />
+    <Compile Include="ObservatoryControls_ASCOMDome.cs" />
+    <Compile Include="ProgControls_CCDAP.cs" />
+    <Compile Include="ProgControls_classes.cs" />
+    <Compile Include="ObservatoryControls_scenarios.cs" />
+    <Compile Include="Modules\CommandInterpretator.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm_Animation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgControls_Maxim_Cooler.cs" />
+    <Compile Include="ProgControls_Maxim.cs" />
+    <Compile Include="ObservatoryControls.cs" />
+    <Compile Include="ObservatoryControls_ASCOMSwitch.cs" />
+    <Compile Include="ProgControls_others.cs" />
+    <Compile Include="ProgControls_PHD.cs" />
+    <Compile Include="ProgControls_TTC.cs" />
+    <Compile Include="ProgControls_WS.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ObservatoryControls_programs.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\__MainForm_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\__MainForm_new.Designer.cs">
+      <DependentUpon>__MainForm_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SocketServer.cs" />
+    <Compile Include="Modules\TestEquipmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\TestEquipmentForm.Designer.cs">
+      <DependentUpon>TestEquipmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\TestEquipmentClass.cs" />
+    <Compile Include="Modules\Utils.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\__MainForm_new.resx">
+      <DependentUpon>__MainForm_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\TestEquipmentForm.resx">
+      <DependentUpon>TestEquipmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="VSFiles\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Docs\Class Diagram.cd" />
+    <None Include="Docs\ObservatoryCenter_TemporaryKey.pfx" />
+    <None Include="VSFiles\packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VSFiles\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Docs\changelog.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Docs\ConfigFormat.txt" />
+    <Content Include="Docs\ObservatoryControl.defaultconfig.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Docs\bugreport_1.txt" />
+    <Content Include="Docs\Notes.txt" />
+    <None Include="Resources\Twilight_chart.png" />
+    <None Include="Resources\logo_observ2.ico" />
+    <None Include="Resources\logo_observ2.png" />
+    <None Include="Resources\logo_observ3.ico" />
+    <None Include="Resources\logo_observ1.ico" />
+    <None Include="Resources\logo_observ.ico" />
+    <None Include="Resources\logo_observ1.png" />
+    <None Include="Resources\logo_48_blue.ico" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="FocusMax">
+      <Guid>{25B3D266-CCAD-4241-AA26-C6AFB68487CA}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MaxIm">
+      <Guid>{B4955EC7-F7F2-11D2-AA9C-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\AstroUtils\AstroUtilsASCOM\BE.AstroUtilsASCOM.csproj">
+      <Project>{98bfef34-399c-4578-8764-79047f55d78f}</Project>
+      <Name>BE.AstroUtilsASCOM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\AstroUtils\AstroUtils\BE.AstroUtils.csproj">
+      <Project>{6bd11111-178e-4624-b209-f04b69c06571}</Project>
+      <Name>BE.AstroUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ImageQuilityPublisher\IQPEngine\IQPEngine.csproj">
+      <Project>{8bb03dce-91f3-4ebc-879c-b7ecc0642d60}</Project>
+      <Name>IQPEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Logging\BE.LoggingAndConfig.csproj">
+      <Project>{31e056ee-0c45-46ea-b20b-fc0b7c3a5292}</Project>
+      <Name>BE.LoggingAndConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WeatherControlEmulation\WeatherControl\WeatherControl.csproj">
+      <Project>{5eaf0786-5dcb-49f9-85a2-2f8165bedb58}</Project>
+      <Name>WeatherControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

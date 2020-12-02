@@ -1,0 +1,40 @@
+Dependencies for Project 'SkyTestR00', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x48B91110)(--cpu ARM7TDMI --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x516D08E8)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (.\ASCOM.c)(0x516D0816)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\ascom.o --omf_browse .\ascom.crf --depend .\ascom.d)
+F (.\UTR0.c)(0x516D081A)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\utr0.o --omf_browse .\utr0.crf --depend .\utr0.d)
+I (utr0.h)(0x48BBF93A)
+F (.\Tst.c)(0x4E3E6070)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\tst.o --omf_browse .\tst.crf --depend .\tst.d)
+F (.\Timers.c)(0x48B92C5A)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\timers.o --omf_browse .\timers.crf --depend .\timers.d)
+F (.\TelescopeControl.c)(0x515CACC6)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\telescopecontrol.o --omf_browse .\telescopecontrol.crf --depend .\telescopecontrol.d)
+I (TelescopeControl.h)(0x512F68DE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+F (.\Sys.c)(0x5016B080)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (Sys.h)(0x50528EAC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+F (.\starstructure.c)(0x4F5C5D88)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\starstructure.o --omf_browse .\starstructure.crf --depend .\starstructure.d)
+F (.\ROM.c)(0x4F432870)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\rom.o --omf_browse .\rom.crf --depend .\rom.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (.\PowerUp.c)(0x4A1D4564)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\powerup.o --omf_browse .\powerup.crf --depend .\powerup.d)
+F (.\Planet.c)(0x513C3274)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\planet.o --omf_browse .\planet.crf --depend .\planet.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (.\MoonPhase.c)(0x4947240A)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\moonphase.o --omf_browse .\moonphase.crf --depend .\moonphase.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (.\menu.c)(0x515C8B4E)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\menu.o --omf_browse .\menu.crf --depend .\menu.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (Sys.h)(0x50528EAC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+F (.\LCD12864.C)(0x4C8892A0)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\lcd12864.o --omf_browse .\lcd12864.crf --depend .\lcd12864.d)
+F (.\Keys.c)(0x4A22BA52)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\keys.o --omf_browse .\keys.crf --depend .\keys.d)
+F (.\JDTime.c)(0x48833DBE)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\jdtime.o --omf_browse .\jdtime.crf --depend .\jdtime.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (.\Interrupt.c)(0x4F4332F8)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\interrupt.o --omf_browse .\interrupt.crf --depend .\interrupt.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+F (.\FAS.c)(0x4F47F884)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\fas.o --omf_browse .\fas.crf --depend .\fas.d)
+F (.\EarthPosition.c)(0x48833FD8)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\earthposition.o --omf_browse .\earthposition.crf --depend .\earthposition.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (.\DispPole.c)(0x4F43464E)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\disppole.o --omf_browse .\disppole.crf --depend .\disppole.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+F (.\Disp.c)(0x4E3E6132)(-c --cpu ARM7TDMI -O0 --apcs=interwork -I..\SkyVision_EQ_AZ-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Philips-o .\disp.o --omf_browse .\disp.crf --depend .\disp.d)

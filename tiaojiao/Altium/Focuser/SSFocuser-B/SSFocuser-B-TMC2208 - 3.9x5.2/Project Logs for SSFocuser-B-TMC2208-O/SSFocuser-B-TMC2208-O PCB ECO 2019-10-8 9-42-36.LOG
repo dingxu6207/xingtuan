@@ -1,0 +1,6 @@
+Added Component: Designator=P1(DC005)
+Added Pin To Net: NetName=NetD1_1 Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=P1-3
+Added Member To Class: ClassName=SSFocuser-B-TMC2208-O Member=Component P1 SOURCE
+Added Room: Name=SSFocuser-B-TMC2208-O
